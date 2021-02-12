@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nQUGsEGv7DGjybAVgWZUV3kUSDlTEK+dfh74KxmYmKb8n4Y6Sa834qpy3z7XxY0F0j1Q9u5ZPh2qIO8lWOdTLw==",
+  "dgSpecHash": "UIWTWDw86iAHh1TehWpdwQtYKn/gfGn046pG39BA1eStrOanMRbMMB08hagqWhWm0b2DUex32kUXYMzDA0DmTg==",
   "success": true,
-  "projectFilePath": "E:\\FWT APP MVVM\\App FWT MVVM\\App FWT MVVM.Android\\App FWT MVVM.Android.csproj",
+  "projectFilePath": "E:\\GIT APP FWT MVVM\\APP-FWT-MVVM\\App FWT MVVM\\App FWT MVVM.Android\\App FWT MVVM.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aless\\.nuget\\packages\\fastandroidcamera\\2.0.0\\fastandroidcamera.2.0.0.nupkg.sha512",
     "C:\\Users\\aless\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",

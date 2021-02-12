@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\FWT APP MVVM\\App FWT MVVM\\App FWT MVVM.Android\\App FWT MVVM.Android.csproj": {}
+    "E:\\GIT APP FWT MVVM\\APP-FWT-MVVM\\App FWT MVVM\\App FWT MVVM.Android\\App FWT MVVM.Android.csproj": {}
   },
   "projects": {
-    "E:\\FWT APP MVVM\\App FWT MVVM\\App FWT MVVM.Android\\App FWT MVVM.Android.csproj": {
+    "E:\\GIT APP FWT MVVM\\APP-FWT-MVVM\\App FWT MVVM\\App FWT MVVM.Android\\App FWT MVVM.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\FWT APP MVVM\\App FWT MVVM\\App FWT MVVM.Android\\App FWT MVVM.Android.csproj",
+        "projectUniqueName": "E:\\GIT APP FWT MVVM\\APP-FWT-MVVM\\App FWT MVVM\\App FWT MVVM.Android\\App FWT MVVM.Android.csproj",
         "projectName": "App FWT MVVM.Android",
-        "projectPath": "E:\\FWT APP MVVM\\App FWT MVVM\\App FWT MVVM.Android\\App FWT MVVM.Android.csproj",
+        "projectPath": "E:\\GIT APP FWT MVVM\\APP-FWT-MVVM\\App FWT MVVM\\App FWT MVVM.Android\\App FWT MVVM.Android.csproj",
         "packagesPath": "C:\\Users\\aless\\.nuget\\packages\\",
-        "outputPath": "E:\\FWT APP MVVM\\App FWT MVVM\\App FWT MVVM.Android\\obj\\",
+        "outputPath": "E:\\GIT APP FWT MVVM\\APP-FWT-MVVM\\App FWT MVVM\\App FWT MVVM.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "E:\\FWT APP MVVM\\App FWT MVVM\\App FWT MVVM\\App FWT MVVM.csproj": {
-                "projectPath": "E:\\FWT APP MVVM\\App FWT MVVM\\App FWT MVVM\\App FWT MVVM.csproj"
+              "E:\\GIT APP FWT MVVM\\APP-FWT-MVVM\\App FWT MVVM\\App FWT MVVM\\App FWT MVVM.csproj": {
+                "projectPath": "E:\\GIT APP FWT MVVM\\APP-FWT-MVVM\\App FWT MVVM\\App FWT MVVM\\App FWT MVVM.csproj"
               }
             }
           }
@@ -66,14 +66,14 @@
         }
       }
     },
-    "E:\\FWT APP MVVM\\App FWT MVVM\\App FWT MVVM\\App FWT MVVM.csproj": {
+    "E:\\GIT APP FWT MVVM\\APP-FWT-MVVM\\App FWT MVVM\\App FWT MVVM\\App FWT MVVM.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\FWT APP MVVM\\App FWT MVVM\\App FWT MVVM\\App FWT MVVM.csproj",
+        "projectUniqueName": "E:\\GIT APP FWT MVVM\\APP-FWT-MVVM\\App FWT MVVM\\App FWT MVVM\\App FWT MVVM.csproj",
         "projectName": "App FWT MVVM",
-        "projectPath": "E:\\FWT APP MVVM\\App FWT MVVM\\App FWT MVVM\\App FWT MVVM.csproj",
+        "projectPath": "E:\\GIT APP FWT MVVM\\APP-FWT-MVVM\\App FWT MVVM\\App FWT MVVM\\App FWT MVVM.csproj",
         "packagesPath": "C:\\Users\\aless\\.nuget\\packages\\",
-        "outputPath": "E:\\FWT APP MVVM\\App FWT MVVM\\App FWT MVVM\\obj\\",
+        "outputPath": "E:\\GIT APP FWT MVVM\\APP-FWT-MVVM\\App FWT MVVM\\App FWT MVVM\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
