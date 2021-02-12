@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App_FWT_MVVM.Views.Login"
+             NavigationPage.HasBackButton="False" NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry x:Name = "Email" Placeholder = "Email"
+                    HeightRequest = "40"    
+                    Keyboard = "Email" 
+                   Text="{Binding Email}"/>
+            <Entry x:Name = "Password" Placeholder = "Password"      
+                   HeightRequest = "40"      
+                   IsPassword = "True"
+                   Text="{Binding Password}"/>
+            <Button x:Name="loginbtn" Text="Login" Command="{Binding LoginCommand}"/>
+            <Button x:Name="registerbtn" Text="register" Command="{Binding RegisterCommand}"/>
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

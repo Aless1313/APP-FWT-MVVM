@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App_FWT_MVVM.Views.Register">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Usuario: "/>
+            <Entry x:Name="User" 
+                   Text="{Binding User}"/>
+            <Label Text="Mail: "/>
+            <Entry x:Name="Mail"
+                   Text="{Binding Mail}"/>
+            <Label Text="Password: "/>
+            <Entry x:Name="Password"
+                   Text="{Binding Password}"/>
+            <Entry x:Name="Mac"
+                   Placeholder="Codigo de dispositivo"
+                   IsEnabled="False"
+                   Text="{Binding Mac}"/>
+            <Button x:Name="scanbtn"
+                    Text="Escanear dispositivo"
+                    Command="{Binding ScanCommand}"/>
+            <Button Text="Register"
+                    x:Name="registerbtn"
+                    Command="{Binding RegisterCommand}"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

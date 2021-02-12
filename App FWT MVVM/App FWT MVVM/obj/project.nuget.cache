@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "W9bpDmPFfQdAX1YfQoBL6mHDfIzJMc7bNeKmI37GbFC8I1Wx7Uo/FhZ8soTI92r1GjOJ0PuG4KJKko+xQiFAsg==",
+  "success": true,
+  "projectFilePath": "E:\\FWT APP MVVM\\App FWT MVVM\\App FWT MVVM\\App FWT MVVM.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\aless\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\aless\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\aless\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\aless\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Users\\aless\\.nuget\\packages\\xamarin.forms\\4.8.0.1687\\xamarin.forms.4.8.0.1687.nupkg.sha512",
+    "C:\\Users\\aless\\.nuget\\packages\\zxing.net.mobile\\2.4.1\\zxing.net.mobile.2.4.1.nupkg.sha512",
+    "C:\\Users\\aless\\.nuget\\packages\\zxing.net.mobile.forms\\2.4.1\\zxing.net.mobile.forms.2.4.1.nupkg.sha512"
+  ],
+  "logs": []
+}
