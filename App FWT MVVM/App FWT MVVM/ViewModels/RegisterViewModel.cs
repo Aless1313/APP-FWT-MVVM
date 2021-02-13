@@ -7,6 +7,7 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using App_FWT_MVVM.Views;
 using ZXing.Net.Mobile.Forms;
+using App_FWT_MVVM.Utilities;
 
 namespace App_FWT_MVVM.ViewModels
 {
@@ -95,13 +96,21 @@ namespace App_FWT_MVVM.ViewModels
 
         public async void Register()
         {
-            if (string.IsNullOrEmpty(User) || string.IsNullOrEmpty(Mail) || string.IsNullOrEmpty(Password) || string.IsNullOrEmpty(Mac))
+            if (string.IsNullOrEmpty(User) || string.IsNullOrEmpty(Mail) || string.IsNullOrEmpty(Password)  || string.IsNullOrEmpty(Mac))
             {
                 await App.Current.MainPage.DisplayAlert("Campos vacios", "Ingrese información", "Ok");
             }
             else
             {
-                await RegisterAccount("http://developerfwt.atwebpages.com/php/registro.php?user="+User.ToString()+"&mail="+Mail.ToString()+"&password="+Password.ToString()+"&mac="+Mac.ToString());
+                if (RegexUtilities.IsValidEmail(Mail))
+                {
+                   
+                        await RegisterAccount("http://developerfwt.atwebpages.com/php/registro.php?user=" + User.ToString() + "&mail=" + Mail.ToString() + "&password=" + Password.ToString() + "&mac=" + Mac.ToString());              
+                }
+                else
+                {
+                    await App.Current.MainPage.DisplayAlert("Error", "Campo email no valido", "ok");
+                }
             }
         }
 
