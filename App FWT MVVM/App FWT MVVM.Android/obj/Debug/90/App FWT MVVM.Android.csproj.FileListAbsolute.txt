@@ -1105,3 +1105,5 @@ E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\
 E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\android\src\crc64f9db6e1d55e3713a\PointerRender.java
 E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\android\src\crc64f9db6e1d55e3713a\ScaleRenderer.java
 E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\android\src\crc64f9db6e1d55e3713a\SfLinearGauge.java
+E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\res\drawable\image.png
+E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\res\drawable\image2.png

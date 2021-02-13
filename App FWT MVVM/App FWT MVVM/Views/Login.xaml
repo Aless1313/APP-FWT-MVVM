@@ -1,22 +1,105 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:gradient ="clr-namespace:Syncfusion.XForms.Graphics;assembly=Syncfusion.Core.XForms"
+             xmlns:inputLayout="clr-namespace:Syncfusion.XForms.TextInputLayout;assembly=Syncfusion.Core.XForms"
+             xmlns:syncfusion="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
+             xmlns:border="clr-namespace:Syncfusion.XForms.Border;assembly=Syncfusion.Core.XForms"
              x:Class="App_FWT_MVVM.Views.Login"
              NavigationPage.HasBackButton="False" NavigationPage.HasNavigationBar="False">
     <ContentPage.Content>
-        <StackLayout>
-            <Entry x:Name = "Email" Placeholder = "Email"
-                    HeightRequest = "40"    
-                    Keyboard = "Email" 
-                   Text="{Binding Email}"/>
-            <Entry x:Name = "Password" Placeholder = "Password"      
-                   HeightRequest = "40"      
-                   IsPassword = "True"
-                   Text="{Binding Password}"/>
-            <Button x:Name="loginbtn" Text="Login" Command="{Binding LoginCommand}"/>
-            <Button x:Name="registerbtn" Text="register" Command="{Binding RegisterCommand}"/>
+     
+
+            <Grid>
+                <gradient:SfGradientView>
+                    <gradient:SfGradientView.BackgroundBrush>
+                        <gradient:SfLinearGradientBrush>
+                            <gradient:SfLinearGradientBrush.GradientStops>
+                                <gradient:SfGradientStop Color="#338CFF" Offset="0.0" />
+                                <gradient:SfGradientStop Color="#0901E2" Offset="1.0" />
+                            </gradient:SfLinearGradientBrush.GradientStops>
+                        </gradient:SfLinearGradientBrush>
+                    </gradient:SfGradientView.BackgroundBrush>
+                </gradient:SfGradientView>
+                <StackLayout>
+                    <Image Source="image2.png" HorizontalOptions="Center" WidthRequest="300" HeightRequest="300"/>
+                <Label Text="Bienvenido" FontSize="40"  TextColor="White" HorizontalOptions="Center"/>
+                <Label Text="Ingresa tu cuenta para entrar" FontSize="25" TextColor="White" HorizontalOptions="Center"/>
+                <StackLayout Padding="20,35,20,100">
+                        
+                        <inputLayout:SfTextInputLayout Hint="Correo"
+                                                   x:Name="txt_userregister"
+                                                   ContainerType="Outlined"
+                                                  
+                                                   IsHintAlwaysFloated="False"
+                                                   OutlineCornerRadius="10"
+                                                   Opacity="1" ContainerBackgroundColor="Transparent"
+                                                       FocusedColor="White" UnfocusedColor="White" 
+                                                       
+                                                       >
+                            <Entry x:Name = "Email"  
+                               HeightRequest = "40"    
+                               Keyboard = "Email" 
+                               Text="{Binding Email}" TextColor="White"/>
+
+                        </inputLayout:SfTextInputLayout>
 
 
-        </StackLayout>
+                        <inputLayout:SfTextInputLayout Hint="Contraseña"
+                                                   x:Name="txt_passwordregistersf"
+                                                   ContainerType="Outlined"
+                                               
+                                                   IsHintAlwaysFloated="False"
+                                                   OutlineCornerRadius="10"
+                                                   EnablePasswordVisibilityToggle="True"
+                                                    Opacity="1" ContainerBackgroundColor="Transparent"
+                                                       FocusedColor="White" UnfocusedColor="White">
+                            <Entry x:Name = "Password"      
+                               HeightRequest = "40"      
+                               IsPassword = "True"
+                                   TextColor="White"
+                               Text="{Binding Password}"/>
+
+                        </inputLayout:SfTextInputLayout>
+
+                    </StackLayout>
+
+
+                    <syncfusion:SfButton x:Name="loginbtn"
+                                         Text="Iniciar Sesión"
+                                         TextColor="White"
+                                         HorizontalOptions="Center"
+                                         VerticalOptions="Center"
+                                         BackgroundColor="#FF4F5F"
+                                         CornerRadius="30"
+                                         WidthRequest="400"
+                                         BorderColor="#FF4F5F"
+                                         Command="{Binding LoginCommand}" Padding="10">
+                        <syncfusion:SfButton.BorderWidth>
+                            <OnPlatform x:TypeArguments="x:Double">
+                                <On Platform="Android" Value="1"/>
+                            </OnPlatform>
+                        </syncfusion:SfButton.BorderWidth>
+                    </syncfusion:SfButton>
+
+                    <syncfusion:SfButton x:Name="registerbtn"
+                                         Text="Registrarse"
+                                         TextColor="White"
+                                         HorizontalOptions="Center"
+                                         VerticalOptions="Center"
+                                         BackgroundColor="#FF4F5F"
+                                         CornerRadius="30"
+                                         WidthRequest="400"
+                                         BorderColor="#FF4F5F"
+                                         Command="{Binding RegisterCommand}" Padding="10">
+                        <syncfusion:SfButton.BorderWidth>
+                            <OnPlatform x:TypeArguments="x:Double">
+                                <On Platform="Android" Value="1"/>
+                            </OnPlatform>
+                        </syncfusion:SfButton.BorderWidth>
+                    </syncfusion:SfButton>
+                </StackLayout>
+            </Grid>
+      
     </ContentPage.Content>
 </ContentPage>

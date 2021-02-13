@@ -111,13 +111,16 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\launcher_foreground.png" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Resources\drawable\" />
+    <AndroidResource Include="Resources\drawable\image2.png" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\App FWT MVVM\App FWT MVVM.csproj">
       <Project>{13A86BAE-2213-482E-81E2-30FBBBBE4838}</Project>
       <Name>App FWT MVVM</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\image.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <ProjectExtensions>
