@@ -35,6 +35,54 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
+      "Syncfusion.Licensing/18.4.0.42": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.Buttons/18.4.0.42": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "18.4.0.42",
+          "Xamarin.Forms": "4.5.0.617"
+        },
+        "compile": {
+          "lib/netstandard2.0/Syncfusion.Buttons.XForms.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.Buttons.XForms.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.Core/18.4.0.42": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "18.4.0.42",
+          "Xamarin.Forms": "4.5.0.617"
+        },
+        "compile": {
+          "lib/netstandard2.0/Syncfusion.Core.XForms.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.Core.XForms.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.SfGauge/18.4.0.42": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "18.4.0.42",
+          "Xamarin.Forms": "4.5.0.617"
+        },
+        "compile": {
+          "lib/netstandard2.0/Syncfusion.SfGauge.XForms.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.SfGauge.XForms.dll": {}
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -275,6 +323,138 @@
         "newtonsoft.json.12.0.3.nupkg.sha512",
         "newtonsoft.json.nuspec",
         "packageIcon.png"
+      ]
+    },
+    "Syncfusion.Licensing/18.4.0.42": {
+      "sha512": "dlYBCpklcF+RHel6sD9itkAme0Tz4ZOqAnfySbul814iEiWJWDA8Y0hDST7M5ifr4S846VZXfZDYV9jebztLYw==",
+      "type": "package",
+      "path": "syncfusion.licensing/18.4.0.42",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10.0/Syncfusion.Licensing.dll",
+        "lib/MonoAndroid90/Syncfusion.Licensing.dll",
+        "lib/Xamarin.Mac/Syncfusion.Licensing.dll",
+        "lib/Xamarin.iOS10/Syncfusion.Licensing.dll",
+        "lib/net20/Syncfusion.Licensing.dll",
+        "lib/net35/Syncfusion.Licensing.dll",
+        "lib/net40/Syncfusion.Licensing.dll",
+        "lib/net45/Syncfusion.Licensing.dll",
+        "lib/net451/Syncfusion.Licensing.dll",
+        "lib/net46/Syncfusion.Licensing.dll",
+        "lib/netcoreapp3.1/Syncfusion.Licensing.dll",
+        "lib/netcoreapp5.0/Syncfusion.Licensing.dll",
+        "lib/netstandard1.0/Syncfusion.Licensing.dll",
+        "lib/netstandard1.2/Syncfusion.Licensing.dll",
+        "lib/netstandard1.4/Syncfusion.Licensing.dll",
+        "lib/netstandard2.0/Syncfusion.Licensing.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Licensing.dll",
+        "lib/uap10.0/Syncfusion.Licensing.dll",
+        "syncfusion.licensing.18.4.0.42.nupkg.sha512",
+        "syncfusion.licensing.nuspec"
+      ]
+    },
+    "Syncfusion.Xamarin.Buttons/18.4.0.42": {
+      "sha512": "dmEFt70O1aIi3e+EfUp92urW/RiUzgM3CbyWW1RcWrpS2fd4i2sPE+q2kcwLbdXaPP4tTGil53JVaV3Znhs56g==",
+      "type": "package",
+      "path": "syncfusion.xamarin.buttons/18.4.0.42",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10.0/Syncfusion.Buttons.XForms.Android.dll",
+        "lib/MonoAndroid10.0/Syncfusion.Buttons.XForms.dll",
+        "lib/MonoAndroid10.0/Syncfusion.Buttons.XForms.xml",
+        "lib/MonoAndroid90/Syncfusion.Buttons.XForms.Android.dll",
+        "lib/MonoAndroid90/Syncfusion.Buttons.XForms.dll",
+        "lib/MonoAndroid90/Syncfusion.Buttons.XForms.xml",
+        "lib/Xamarin.iOS10/Syncfusion.Buttons.XForms.dll",
+        "lib/Xamarin.iOS10/Syncfusion.Buttons.XForms.iOS.dll",
+        "lib/Xamarin.iOS10/Syncfusion.Buttons.XForms.xml",
+        "lib/netstandard2.0/Syncfusion.Buttons.XForms.dll",
+        "lib/netstandard2.0/Syncfusion.Buttons.XForms.xml",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Buttons.XForms.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Buttons.XForms.xml",
+        "lib/uap10.0/Syncfusion.Buttons.XForms.UWP.XML",
+        "lib/uap10.0/Syncfusion.Buttons.XForms.UWP.dll",
+        "lib/uap10.0/Syncfusion.Buttons.XForms.UWP.pri",
+        "lib/uap10.0/Syncfusion.Buttons.XForms.UWP/Assets/SfButton.ttf",
+        "lib/uap10.0/Syncfusion.Buttons.XForms.UWP/Assets/sfbutton_Segoe MDL2 Assets.ttf",
+        "lib/uap10.0/Syncfusion.Buttons.XForms.UWP/Properties/Syncfusion.Buttons.XForms.UWP.rd.xml",
+        "lib/uap10.0/Syncfusion.Buttons.XForms.UWP/Syncfusion.Buttons.XForms.UWP.xr.xml",
+        "lib/uap10.0/Syncfusion.Buttons.XForms.UWP/Themes/Generic.xaml",
+        "lib/uap10.0/Syncfusion.Buttons.XForms.dll",
+        "lib/uap10.0/Syncfusion.Buttons.XForms.xml",
+        "syncfusion.xamarin.buttons.18.4.0.42.nupkg.sha512",
+        "syncfusion.xamarin.buttons.nuspec"
+      ]
+    },
+    "Syncfusion.Xamarin.Core/18.4.0.42": {
+      "sha512": "+hYZzp/NPH1l020tNMLHa/+CW5lY8deKw+XKs1FMTY+6H8wEkC50Sv1GUCqtsedTwM1GLUm6Y2tjpxWVLI3vXg==",
+      "type": "package",
+      "path": "syncfusion.xamarin.core/18.4.0.42",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10.0/Syncfusion.Core.XForms.Android.dll",
+        "lib/MonoAndroid10.0/Syncfusion.Core.XForms.dll",
+        "lib/MonoAndroid10.0/Syncfusion.Core.XForms.xml",
+        "lib/MonoAndroid90/Syncfusion.Core.XForms.Android.dll",
+        "lib/MonoAndroid90/Syncfusion.Core.XForms.dll",
+        "lib/MonoAndroid90/Syncfusion.Core.XForms.xml",
+        "lib/Xamarin.Mac/Syncfusion.Core.XForms.dll",
+        "lib/Xamarin.Mac/Syncfusion.Core.XForms.macOS.dll",
+        "lib/Xamarin.iOS10/Syncfusion.Core.XForms.dll",
+        "lib/Xamarin.iOS10/Syncfusion.Core.XForms.iOS.dll",
+        "lib/Xamarin.iOS10/Syncfusion.Core.XForms.xml",
+        "lib/netstandard2.0/Syncfusion.Core.XForms.dll",
+        "lib/netstandard2.0/Syncfusion.Core.XForms.xml",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Core.XForms.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Core.XForms.xml",
+        "lib/uap10.0/Syncfusion.Core.XForms.UWP.dll",
+        "lib/uap10.0/Syncfusion.Core.XForms.UWP.pri",
+        "lib/uap10.0/Syncfusion.Core.XForms.UWP/Syncfusion.Core.XForms.UWP.xr.xml",
+        "lib/uap10.0/Syncfusion.Core.XForms.UWP/TILRenderer/ToggleIcons/ClearButtonViewVisibleIcon.xaml",
+        "lib/uap10.0/Syncfusion.Core.XForms.UWP/TILRenderer/ToggleIcons/DropDownIcon.xaml",
+        "lib/uap10.0/Syncfusion.Core.XForms.UWP/TILRenderer/ToggleIcons/ToggleCollapsedIcon.xaml",
+        "lib/uap10.0/Syncfusion.Core.XForms.UWP/TILRenderer/ToggleIcons/ToggleVisibleIcon.xaml",
+        "lib/uap10.0/Syncfusion.Core.XForms.dll",
+        "lib/uap10.0/Syncfusion.Core.XForms.xml",
+        "syncfusion.xamarin.core.18.4.0.42.nupkg.sha512",
+        "syncfusion.xamarin.core.nuspec"
+      ]
+    },
+    "Syncfusion.Xamarin.SfGauge/18.4.0.42": {
+      "sha512": "w4MoJ8YmfpZOcnPvJJ9nzB89uftbfjZWItYpB+g0c0fWkKy6srCUuCMvZsqk94TW2g6BKTdI3tnIQqIRaTunXA==",
+      "type": "package",
+      "path": "syncfusion.xamarin.sfgauge/18.4.0.42",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10.0/Syncfusion.SfGauge.Android.dll",
+        "lib/MonoAndroid10.0/Syncfusion.SfGauge.Android.xml",
+        "lib/MonoAndroid10.0/Syncfusion.SfGauge.XForms.Android.dll",
+        "lib/MonoAndroid10.0/Syncfusion.SfGauge.XForms.dll",
+        "lib/MonoAndroid10.0/Syncfusion.SfGauge.XForms.xml",
+        "lib/MonoAndroid90/Syncfusion.SfGauge.Android.dll",
+        "lib/MonoAndroid90/Syncfusion.SfGauge.Android.xml",
+        "lib/MonoAndroid90/Syncfusion.SfGauge.XForms.Android.dll",
+        "lib/MonoAndroid90/Syncfusion.SfGauge.XForms.dll",
+        "lib/MonoAndroid90/Syncfusion.SfGauge.XForms.xml",
+        "lib/Xamarin.iOS10/Syncfusion.SfGauge.XForms.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfGauge.XForms.iOS.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfGauge.XForms.xml",
+        "lib/Xamarin.iOS10/Syncfusion.SfGauge.iOS.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfGauge.iOS.xml",
+        "lib/netstandard2.0/Syncfusion.SfGauge.XForms.dll",
+        "lib/netstandard2.0/Syncfusion.SfGauge.XForms.xml",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.SfGauge.XForms.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.SfGauge.XForms.xml",
+        "lib/uap10.0/Syncfusion.SfGauge.XForms.UWP.XML",
+        "lib/uap10.0/Syncfusion.SfGauge.XForms.UWP.dll",
+        "lib/uap10.0/Syncfusion.SfGauge.XForms.dll",
+        "lib/uap10.0/Syncfusion.SfGauge.XForms.xml",
+        "syncfusion.xamarin.sfgauge.18.4.0.42.nupkg.sha512",
+        "syncfusion.xamarin.sfgauge.nuspec"
       ]
     },
     "System.Numerics.Vectors/4.5.0": {
@@ -737,6 +917,9 @@
     ".NETStandard,Version=v2.0": [
       "NETStandard.Library >= 2.0.3",
       "Newtonsoft.Json >= 12.0.3",
+      "Syncfusion.Xamarin.Buttons >= 18.4.0.42",
+      "Syncfusion.Xamarin.Core >= 18.4.0.42",
+      "Syncfusion.Xamarin.SfGauge >= 18.4.0.42",
       "Xamarin.Essentials >= 1.5.3.2",
       "Xamarin.Forms >= 4.8.0.1687",
       "ZXing.Net.Mobile >= 2.4.1",
@@ -796,6 +979,18 @@
           "Newtonsoft.Json": {
             "target": "Package",
             "version": "[12.0.3, )"
+          },
+          "Syncfusion.Xamarin.Buttons": {
+            "target": "Package",
+            "version": "[18.4.0.42, )"
+          },
+          "Syncfusion.Xamarin.Core": {
+            "target": "Package",
+            "version": "[18.4.0.42, )"
+          },
+          "Syncfusion.Xamarin.SfGauge": {
+            "target": "Package",
+            "version": "[18.4.0.42, )"
           },
           "Xamarin.Essentials": {
             "target": "Package",

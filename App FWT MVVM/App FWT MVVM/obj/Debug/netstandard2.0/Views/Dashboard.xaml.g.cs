@@ -17,8 +17,12 @@ namespace App_FWT_MVVM.Views {
     public partial class Dashboard : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::Syncfusion.SfGauge.XForms.NeedlePointer pointer;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(Dashboard));
+            pointer = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Syncfusion.SfGauge.XForms.NeedlePointer>(this, "pointer");
         }
     }
 }

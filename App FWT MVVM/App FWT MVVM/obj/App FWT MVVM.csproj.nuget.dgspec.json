@@ -54,6 +54,18 @@
               "target": "Package",
               "version": "[12.0.3, )"
             },
+            "Syncfusion.Xamarin.Buttons": {
+              "target": "Package",
+              "version": "[18.4.0.42, )"
+            },
+            "Syncfusion.Xamarin.Core": {
+              "target": "Package",
+              "version": "[18.4.0.42, )"
+            },
+            "Syncfusion.Xamarin.SfGauge": {
+              "target": "Package",
+              "version": "[18.4.0.42, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.5.3.2, )"

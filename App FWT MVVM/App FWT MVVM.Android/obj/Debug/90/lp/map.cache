@@ -1,6 +1,10 @@
 App FWT MVVM
 FastAndroidCamera
 FormsViewGroup
+Syncfusion.Buttons.XForms.Android
+Syncfusion.Core.XForms.Android
+Syncfusion.SfGauge.Android
+Syncfusion.SfGauge.XForms.Android
 Xamarin.Android.Arch.Core.Common
 Xamarin.Android.Arch.Core.Runtime
 Xamarin.Android.Arch.Lifecycle.Common

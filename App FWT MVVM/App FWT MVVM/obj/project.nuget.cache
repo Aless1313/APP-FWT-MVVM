@@ -1,12 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "la0AckknUVIfSAwuOs3ptlRqezZHidJuOopieJuDn0Dlky0SS877ZiL3iYBgoxMJ0N8ULOXorQrWS80wdcy/9Q==",
+  "dgSpecHash": "elr57byQ7SL0H/h1kHYUsn65JcJWUnitueeyrh1wk0clrUA+gns0wMnxIdaEti3vdmN5lp4LL5Za/hDME/AORg==",
   "success": true,
   "projectFilePath": "E:\\GIT APP FWT MVVM\\APP-FWT-MVVM\\App FWT MVVM\\App FWT MVVM\\App FWT MVVM.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aless\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\aless\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Users\\aless\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\aless\\.nuget\\packages\\syncfusion.licensing\\18.4.0.42\\syncfusion.licensing.18.4.0.42.nupkg.sha512",
+    "C:\\Users\\aless\\.nuget\\packages\\syncfusion.xamarin.buttons\\18.4.0.42\\syncfusion.xamarin.buttons.18.4.0.42.nupkg.sha512",
+    "C:\\Users\\aless\\.nuget\\packages\\syncfusion.xamarin.core\\18.4.0.42\\syncfusion.xamarin.core.18.4.0.42.nupkg.sha512",
+    "C:\\Users\\aless\\.nuget\\packages\\syncfusion.xamarin.sfgauge\\18.4.0.42\\syncfusion.xamarin.sfgauge.18.4.0.42.nupkg.sha512",
     "C:\\Users\\aless\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
     "C:\\Users\\aless\\.nuget\\packages\\xamarin.forms\\4.8.0.1687\\xamarin.forms.4.8.0.1687.nupkg.sha512",

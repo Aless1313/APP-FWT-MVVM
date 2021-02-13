@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "UIWTWDw86iAHh1TehWpdwQtYKn/gfGn046pG39BA1eStrOanMRbMMB08hagqWhWm0b2DUex32kUXYMzDA0DmTg==",
+  "dgSpecHash": "BHfXlVkqZPC5ot1rOAywo0vXMEmdGUogTupN1mqGUxFa900anHwvM8ODfdg1kw7AScLl35SwCUHjWsec9EeyOA==",
   "success": true,
   "projectFilePath": "E:\\GIT APP FWT MVVM\\APP-FWT-MVVM\\App FWT MVVM\\App FWT MVVM.Android\\App FWT MVVM.Android.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,10 @@
     "C:\\Users\\aless\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\aless\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Users\\aless\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\aless\\.nuget\\packages\\syncfusion.licensing\\18.4.0.42\\syncfusion.licensing.18.4.0.42.nupkg.sha512",
+    "C:\\Users\\aless\\.nuget\\packages\\syncfusion.xamarin.buttons\\18.4.0.42\\syncfusion.xamarin.buttons.18.4.0.42.nupkg.sha512",
+    "C:\\Users\\aless\\.nuget\\packages\\syncfusion.xamarin.core\\18.4.0.42\\syncfusion.xamarin.core.18.4.0.42.nupkg.sha512",
+    "C:\\Users\\aless\\.nuget\\packages\\syncfusion.xamarin.sfgauge\\18.4.0.42\\syncfusion.xamarin.sfgauge.18.4.0.42.nupkg.sha512",
     "C:\\Users\\aless\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.arch.core.common\\1.1.1.3\\xamarin.android.arch.core.common.1.1.1.3.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.arch.core.runtime\\1.1.1.3\\xamarin.android.arch.core.runtime.1.1.1.3.nupkg.sha512",
