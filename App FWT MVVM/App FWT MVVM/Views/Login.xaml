@@ -16,21 +16,21 @@
                         <gradient:SfLinearGradientBrush>
                             <gradient:SfLinearGradientBrush.GradientStops>
                                 <gradient:SfGradientStop Color="#338CFF" Offset="0.0" />
-                                <gradient:SfGradientStop Color="#0901E2" Offset="1.0" />
+                                <gradient:SfGradientStop Color="#219BC4" Offset="1.0" />
                             </gradient:SfLinearGradientBrush.GradientStops>
                         </gradient:SfLinearGradientBrush>
                     </gradient:SfGradientView.BackgroundBrush>
                 </gradient:SfGradientView>
                 <StackLayout>
-                    <Image Source="image2.png" HorizontalOptions="Center" WidthRequest="300" HeightRequest="300"/>
-                <Label Text="Bienvenido" FontSize="40"  TextColor="White" HorizontalOptions="Center"/>
-                <Label Text="Ingresa tu cuenta para entrar" FontSize="25" TextColor="White" HorizontalOptions="Center"/>
-                <StackLayout Padding="20,35,20,100">
+                    <Image Source="image2.png" HorizontalOptions="Center" WidthRequest="250" HeightRequest="250"/>
+                <Label Text="Bienvenido" FontSize="35"  TextColor="White" HorizontalOptions="Center"/>
+                <Label Text="Ingresa tu cuenta para entrar" FontSize="20" TextColor="White" HorizontalOptions="Center"/>
+                <StackLayout Padding="20,35,20,20">
                         
                         <inputLayout:SfTextInputLayout Hint="Correo"
                                                    x:Name="txt_userregister"
                                                    ContainerType="Outlined"
-                                                  
+                                                 
                                                    IsHintAlwaysFloated="False"
                                                    OutlineCornerRadius="10"
                                                    Opacity="1" ContainerBackgroundColor="Transparent"
@@ -38,7 +38,7 @@
                                                        
                                                        >
                             <Entry x:Name = "Email"  
-                               HeightRequest = "40"    
+                               HeightRequest = "50"    
                                Keyboard = "Email" 
                                Text="{Binding Email}" TextColor="White"/>
 
@@ -55,26 +55,27 @@
                                                     Opacity="1" ContainerBackgroundColor="Transparent"
                                                        FocusedColor="White" UnfocusedColor="White">
                             <Entry x:Name = "Password"      
-                               HeightRequest = "40"      
+                               HeightRequest = "50"      
                                IsPassword = "True"
                                    TextColor="White"
                                Text="{Binding Password}"/>
 
                         </inputLayout:SfTextInputLayout>
 
-                    </StackLayout>
+                </StackLayout>
 
-
+                <StackLayout Padding="0,20,0,0" Spacing="10">
                     <syncfusion:SfButton x:Name="loginbtn"
                                          Text="Iniciar Sesión"
+                                         
                                          TextColor="White"
-                                         HorizontalOptions="Center"
+                                         HorizontalOptions="CenterAndExpand"
                                          VerticalOptions="Center"
-                                         BackgroundColor="#FF4F5F"
-                                         CornerRadius="30"
-                                         WidthRequest="400"
-                                         BorderColor="#FF4F5F"
-                                         Command="{Binding LoginCommand}" Padding="10">
+                                         BackgroundColor="#0046FE"
+                                         CornerRadius="20"
+                                         WidthRequest="200"
+                                         BorderColor="#FFFFFF"
+                                         Command="{Binding LoginCommand}" Padding="8">
                         <syncfusion:SfButton.BorderWidth>
                             <OnPlatform x:TypeArguments="x:Double">
                                 <On Platform="Android" Value="1"/>
@@ -85,13 +86,13 @@
                     <syncfusion:SfButton x:Name="registerbtn"
                                          Text="Registrarse"
                                          TextColor="White"
-                                         HorizontalOptions="Center"
+                                         HorizontalOptions="CenterAndExpand"
                                          VerticalOptions="Center"
-                                         BackgroundColor="#FF4F5F"
-                                         CornerRadius="30"
-                                         WidthRequest="400"
-                                         BorderColor="#FF4F5F"
-                                         Command="{Binding RegisterCommand}" Padding="10">
+                                         BackgroundColor="#1BB219"
+                                         CornerRadius="20"
+                                         WidthRequest="200"
+                                         BorderColor="#FFFFFF"
+                                         Command="{Binding RegisterCommand}" Padding="8">
                         <syncfusion:SfButton.BorderWidth>
                             <OnPlatform x:TypeArguments="x:Double">
                                 <On Platform="Android" Value="1"/>
@@ -99,6 +100,7 @@
                         </syncfusion:SfButton.BorderWidth>
                     </syncfusion:SfButton>
                 </StackLayout>
+            </StackLayout>
             </Grid>
       
     </ContentPage.Content>

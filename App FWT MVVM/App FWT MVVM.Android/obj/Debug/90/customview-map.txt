@@ -1,137 +1,137 @@
-@string/appbar_scrolling_view_behavior;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\45\jl\res\layout\flyoutcontent.xml
-@string/appbar_scrolling_view_behavior;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\45\jl\res\layout\rootlayout.xml
+@string/appbar_scrolling_view_behavior;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\45\jl\res\layout\flyoutcontent.xml
+@string/appbar_scrolling_view_behavior;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\45\jl\res\layout\rootlayout.xml
 adaptive-icon;obj\Debug\90\res\mipmap-anydpi-v26\icon.xml
 adaptive-icon;obj\Debug\90\res\mipmap-anydpi-v26\icon_round.xml
-alpha;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\45\jl\res\anim\enterfromleft.xml
-alpha;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\45\jl\res\anim\exittoleft.xml
-android.support.design.widget.AppBarLayout;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\45\jl\res\layout\flyoutcontent.xml
-android.support.design.widget.AppBarLayout;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\45\jl\res\layout\rootlayout.xml
-android.support.design.widget.AppBarLayout;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\45\jl\res\layout\shellcontent.xml
-android.support.design.widget.BottomNavigationView;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\45\jl\res\layout\bottomtablayout.xml
-android.support.design.widget.CoordinatorLayout;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\45\jl\res\layout\flyoutcontent.xml
-android.support.design.widget.CoordinatorLayout;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\45\jl\res\layout\rootlayout.xml
-android.support.design.widget.CoordinatorLayout;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\45\jl\res\layout\shellcontent.xml
-android.support.design.widget.TabLayout;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\45\jl\res\layout\rootlayout.xml
+alpha;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\45\jl\res\anim\enterfromleft.xml
+alpha;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\45\jl\res\anim\exittoleft.xml
+android.support.design.widget.AppBarLayout;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\45\jl\res\layout\flyoutcontent.xml
+android.support.design.widget.AppBarLayout;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\45\jl\res\layout\rootlayout.xml
+android.support.design.widget.AppBarLayout;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\45\jl\res\layout\shellcontent.xml
+android.support.design.widget.BottomNavigationView;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\45\jl\res\layout\bottomtablayout.xml
+android.support.design.widget.CoordinatorLayout;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\45\jl\res\layout\flyoutcontent.xml
+android.support.design.widget.CoordinatorLayout;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\45\jl\res\layout\rootlayout.xml
+android.support.design.widget.CoordinatorLayout;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\45\jl\res\layout\shellcontent.xml
+android.support.design.widget.TabLayout;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\45\jl\res\layout\rootlayout.xml
 android.support.design.widget.TabLayout;obj\Debug\90\res\layout\tabbar.xml
-android.support.v7.widget.RecyclerView;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\45\jl\res\layout\flyoutcontent.xml
-android.support.v7.widget.Toolbar;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\45\jl\res\layout\rootlayout.xml
-android.support.v7.widget.Toolbar;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\45\jl\res\layout\shellcontent.xml
+android.support.v7.widget.RecyclerView;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\45\jl\res\layout\flyoutcontent.xml
+android.support.v7.widget.Toolbar;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\45\jl\res\layout\rootlayout.xml
+android.support.v7.widget.Toolbar;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\45\jl\res\layout\shellcontent.xml
 android.support.v7.widget.Toolbar;obj\Debug\90\res\layout\toolbar.xml
-animated-selector;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\drawable\btn_checkbox.xml
-animated-vector;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\drawable\btn_checkbox_checked_to_indeterminate_animation.xml
-animated-vector;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\drawable\btn_checkbox_checked_to_unchecked_animation.xml
-animated-vector;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\drawable\btn_checkbox_indeterminate_to_checked_animation.xml
-animated-vector;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\drawable\btn_checkbox_indeterminate_to_unchecked_animation.xml
-animated-vector;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\drawable\btn_checkbox_unchecked_to_checked_animation.xml
-animated-vector;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\drawable\btn_checkbox_unchecked_to_indeterminate_animation.xml
-attr;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\values\attrs.xml
-attr;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\45\jl\res\values\attrs.xml
-attr;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\5\jl\res\values\attrs.xml
+animated-selector;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\drawable\btn_checkbox.xml
+animated-vector;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\drawable\btn_checkbox_checked_to_indeterminate_animation.xml
+animated-vector;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\drawable\btn_checkbox_checked_to_unchecked_animation.xml
+animated-vector;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\drawable\btn_checkbox_indeterminate_to_checked_animation.xml
+animated-vector;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\drawable\btn_checkbox_indeterminate_to_unchecked_animation.xml
+animated-vector;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\drawable\btn_checkbox_unchecked_to_checked_animation.xml
+animated-vector;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\drawable\btn_checkbox_unchecked_to_indeterminate_animation.xml
+attr;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\values\attrs.xml
+attr;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\45\jl\res\values\attrs.xml
+attr;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\5\jl\res\values\attrs.xml
 background;obj\Debug\90\res\mipmap-anydpi-v26\icon.xml
 background;obj\Debug\90\res\mipmap-anydpi-v26\icon_round.xml
-cache-path;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\44\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+cache-path;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\44\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 color;obj\Debug\90\res\values\colors.xml
-Com.Syncfusion.Gauges.SfDigitalGauge.EightCrossEightDotMatrix;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\5\jl\res\layout\digitalgauge_layout.xml
-Com.Syncfusion.Gauges.SfDigitalGauge.FourteenSegmentHelper;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\5\jl\res\layout\digitalgauge_layout.xml
-Com.Syncfusion.Gauges.SfDigitalGauge.SevenSegmentHelper;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\5\jl\res\layout\digitalgauge_layout.xml
-Com.Syncfusion.Gauges.SfDigitalGauge.SixteenSegmentHelper;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\5\jl\res\layout\digitalgauge_layout.xml
-declare-styleable;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\values\attrs.xml
-declare-styleable;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\45\jl\res\values\attrs.xml
-declare-styleable;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\5\jl\res\values\attrs.xml
-dimen;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\5\jl\res\values\dimens.xml
-enum;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\values\attrs.xml
-enum;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\5\jl\res\values\attrs.xml
-external-cache-path;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\44\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
-external-path;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\44\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+Com.Syncfusion.Gauges.SfDigitalGauge.EightCrossEightDotMatrix;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\5\jl\res\layout\digitalgauge_layout.xml
+Com.Syncfusion.Gauges.SfDigitalGauge.FourteenSegmentHelper;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\5\jl\res\layout\digitalgauge_layout.xml
+Com.Syncfusion.Gauges.SfDigitalGauge.SevenSegmentHelper;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\5\jl\res\layout\digitalgauge_layout.xml
+Com.Syncfusion.Gauges.SfDigitalGauge.SixteenSegmentHelper;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\5\jl\res\layout\digitalgauge_layout.xml
+declare-styleable;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\values\attrs.xml
+declare-styleable;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\45\jl\res\values\attrs.xml
+declare-styleable;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\5\jl\res\values\attrs.xml
+dimen;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\5\jl\res\values\dimens.xml
+enum;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\values\attrs.xml
+enum;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\5\jl\res\values\attrs.xml
+external-cache-path;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\44\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+external-path;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\44\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 foreground;obj\Debug\90\res\mipmap-anydpi-v26\icon.xml
 foreground;obj\Debug\90\res\mipmap-anydpi-v26\icon_round.xml
-FrameLayout;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\45\jl\res\layout\bottomtablayout.xml
-FrameLayout;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\48\jl\res\layout\zxingscanneractivitylayout.xml
-FrameLayout;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\48\jl\res\layout\zxingscannerfragmentlayout.xml
-FrameLayout;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\5\jl\res\layout\circulargauge_layout.xml
-FrameLayout;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\5\jl\res\layout\digitalgauge_layout.xml
-group;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\drawable\btn_checkbox_checked.xml
-group;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\drawable\btn_checkbox_indeterminate.xml
-group;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\drawable\btn_checkbox_unchecked.xml
-item;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\drawable\btn_checkbox.xml
-item;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\values\values.xml
-item;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\45\jl\res\values\styles.xml
-LinearLayout;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\45\jl\res\layout\bottomtablayout.xml
-objectAnimator;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\anim\btn_checkbox_indeterminate_to_checked_box_inner_merged_animation.xml
-objectAnimator;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\anim\btn_checkbox_indeterminate_to_checked_box_outer_merged_animation.xml
-objectAnimator;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\anim\btn_checkbox_indeterminate_to_checked_icon_null_animation.xml
-objectAnimator;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\anim\btn_checkbox_to_checked_box_inner_merged_animation.xml
-objectAnimator;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\anim\btn_checkbox_to_checked_box_outer_merged_animation.xml
-objectAnimator;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\anim\btn_checkbox_to_checked_icon_null_animation.xml
-objectAnimator;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\anim\btn_checkbox_to_indeterminate_from_checked_box_inner_merged_animation.xml
-objectAnimator;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\anim\btn_checkbox_to_indeterminate_from_checked_icon_null_animation.xml
-objectAnimator;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\anim\btn_checkbox_to_indeterminate_from_unchecked_box_inner_merged_animation.xml
-objectAnimator;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\anim\btn_checkbox_to_indeterminate_from_unchecked_box_outer_merged_animation.xml
-objectAnimator;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\anim\btn_checkbox_to_indeterminate_from_unchecked_icon_null_animation.xml
-objectAnimator;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\anim\btn_checkbox_to_unchecked_box_inner_merged_animation.xml
-objectAnimator;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\anim\btn_checkbox_to_unchecked_check_path_merged_animation.xml
-objectAnimator;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\anim\btn_checkbox_to_unchecked_from_indeterminate_box_inner_merged_animation.xml
-objectAnimator;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\anim\btn_checkbox_to_unchecked_from_indeterminate_check_path_merged_animation.xml
-objectAnimator;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\anim\btn_checkbox_to_unchecked_from_indeterminate_icon_null_animation.xml
-objectAnimator;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\anim\btn_checkbox_to_unchecked_icon_null_animation.xml
-path;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\drawable\btn_checkbox_checked.xml
-path;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\drawable\btn_checkbox_indeterminate.xml
-path;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\drawable\btn_checkbox_unchecked.xml
-pathInterpolator;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\interpolator\btn_checkbox_checked_animation_interpolator_0.xml
-pathInterpolator;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\interpolator\btn_checkbox_checked_animation_interpolator_1.xml
-pathInterpolator;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\interpolator\btn_checkbox_indeterminate_animation_interpolator_1.xml
-pathInterpolator;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\interpolator\btn_checkbox_unchecked_animation_interpolator_0.xml
-pathInterpolator;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\interpolator\btn_checkbox_unchecked_animation_interpolator_1.xml
-paths;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\44\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
-resources;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\values\attrs.xml
-resources;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\values\values.xml
-resources;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\45\jl\res\values\attrs.xml
-resources;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\45\jl\res\values\strings.xml
-resources;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\45\jl\res\values\styles.xml
-resources;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\47\jl\res\values\strings.xml
-resources;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\5\jl\res\values\attrs.xml
-resources;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\5\jl\res\values\dimens.xml
-resources;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\5\jl\res\values\strings.xml
+FrameLayout;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\45\jl\res\layout\bottomtablayout.xml
+FrameLayout;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\48\jl\res\layout\zxingscanneractivitylayout.xml
+FrameLayout;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\48\jl\res\layout\zxingscannerfragmentlayout.xml
+FrameLayout;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\5\jl\res\layout\circulargauge_layout.xml
+FrameLayout;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\5\jl\res\layout\digitalgauge_layout.xml
+group;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\drawable\btn_checkbox_checked.xml
+group;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\drawable\btn_checkbox_indeterminate.xml
+group;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\drawable\btn_checkbox_unchecked.xml
+item;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\drawable\btn_checkbox.xml
+item;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\values\values.xml
+item;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\45\jl\res\values\styles.xml
+LinearLayout;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\45\jl\res\layout\bottomtablayout.xml
+objectAnimator;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\anim\btn_checkbox_indeterminate_to_checked_box_inner_merged_animation.xml
+objectAnimator;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\anim\btn_checkbox_indeterminate_to_checked_box_outer_merged_animation.xml
+objectAnimator;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\anim\btn_checkbox_indeterminate_to_checked_icon_null_animation.xml
+objectAnimator;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\anim\btn_checkbox_to_checked_box_inner_merged_animation.xml
+objectAnimator;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\anim\btn_checkbox_to_checked_box_outer_merged_animation.xml
+objectAnimator;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\anim\btn_checkbox_to_checked_icon_null_animation.xml
+objectAnimator;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\anim\btn_checkbox_to_indeterminate_from_checked_box_inner_merged_animation.xml
+objectAnimator;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\anim\btn_checkbox_to_indeterminate_from_checked_icon_null_animation.xml
+objectAnimator;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\anim\btn_checkbox_to_indeterminate_from_unchecked_box_inner_merged_animation.xml
+objectAnimator;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\anim\btn_checkbox_to_indeterminate_from_unchecked_box_outer_merged_animation.xml
+objectAnimator;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\anim\btn_checkbox_to_indeterminate_from_unchecked_icon_null_animation.xml
+objectAnimator;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\anim\btn_checkbox_to_unchecked_box_inner_merged_animation.xml
+objectAnimator;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\anim\btn_checkbox_to_unchecked_check_path_merged_animation.xml
+objectAnimator;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\anim\btn_checkbox_to_unchecked_from_indeterminate_box_inner_merged_animation.xml
+objectAnimator;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\anim\btn_checkbox_to_unchecked_from_indeterminate_check_path_merged_animation.xml
+objectAnimator;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\anim\btn_checkbox_to_unchecked_from_indeterminate_icon_null_animation.xml
+objectAnimator;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\anim\btn_checkbox_to_unchecked_icon_null_animation.xml
+path;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\drawable\btn_checkbox_checked.xml
+path;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\drawable\btn_checkbox_indeterminate.xml
+path;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\drawable\btn_checkbox_unchecked.xml
+pathInterpolator;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\interpolator\btn_checkbox_checked_animation_interpolator_0.xml
+pathInterpolator;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\interpolator\btn_checkbox_checked_animation_interpolator_1.xml
+pathInterpolator;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\interpolator\btn_checkbox_indeterminate_animation_interpolator_1.xml
+pathInterpolator;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\interpolator\btn_checkbox_unchecked_animation_interpolator_0.xml
+pathInterpolator;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\interpolator\btn_checkbox_unchecked_animation_interpolator_1.xml
+paths;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\44\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+resources;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\values\attrs.xml
+resources;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\values\values.xml
+resources;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\45\jl\res\values\attrs.xml
+resources;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\45\jl\res\values\strings.xml
+resources;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\45\jl\res\values\styles.xml
+resources;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\47\jl\res\values\strings.xml
+resources;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\5\jl\res\values\attrs.xml
+resources;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\5\jl\res\values\dimens.xml
+resources;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\5\jl\res\values\strings.xml
 resources;obj\Debug\90\res\values\colors.xml
 resources;obj\Debug\90\res\values\styles.xml
-set;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\anim\btn_checkbox_indeterminate_to_checked_box_inner_merged_animation.xml
-set;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\anim\btn_checkbox_indeterminate_to_checked_box_outer_merged_animation.xml
-set;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\anim\btn_checkbox_indeterminate_to_checked_icon_null_animation.xml
-set;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\anim\btn_checkbox_to_checked_box_inner_merged_animation.xml
-set;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\anim\btn_checkbox_to_checked_box_outer_merged_animation.xml
-set;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\anim\btn_checkbox_to_checked_icon_null_animation.xml
-set;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\anim\btn_checkbox_to_indeterminate_from_checked_box_inner_merged_animation.xml
-set;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\anim\btn_checkbox_to_indeterminate_from_checked_icon_null_animation.xml
-set;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\anim\btn_checkbox_to_indeterminate_from_unchecked_box_inner_merged_animation.xml
-set;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\anim\btn_checkbox_to_indeterminate_from_unchecked_box_outer_merged_animation.xml
-set;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\anim\btn_checkbox_to_indeterminate_from_unchecked_icon_null_animation.xml
-set;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\anim\btn_checkbox_to_unchecked_box_inner_merged_animation.xml
-set;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\anim\btn_checkbox_to_unchecked_check_path_merged_animation.xml
-set;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\anim\btn_checkbox_to_unchecked_from_indeterminate_box_inner_merged_animation.xml
-set;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\anim\btn_checkbox_to_unchecked_from_indeterminate_check_path_merged_animation.xml
-set;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\anim\btn_checkbox_to_unchecked_from_indeterminate_icon_null_animation.xml
-set;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\anim\btn_checkbox_to_unchecked_icon_null_animation.xml
-set;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\45\jl\res\anim\enterfromleft.xml
-set;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\45\jl\res\anim\enterfromright.xml
-set;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\45\jl\res\anim\exittoleft.xml
-set;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\45\jl\res\anim\exittoright.xml
-string;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\45\jl\res\values\strings.xml
-string;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\47\jl\res\values\strings.xml
-string;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\5\jl\res\values\strings.xml
-style;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\45\jl\res\values\styles.xml
+set;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\anim\btn_checkbox_indeterminate_to_checked_box_inner_merged_animation.xml
+set;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\anim\btn_checkbox_indeterminate_to_checked_box_outer_merged_animation.xml
+set;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\anim\btn_checkbox_indeterminate_to_checked_icon_null_animation.xml
+set;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\anim\btn_checkbox_to_checked_box_inner_merged_animation.xml
+set;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\anim\btn_checkbox_to_checked_box_outer_merged_animation.xml
+set;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\anim\btn_checkbox_to_checked_icon_null_animation.xml
+set;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\anim\btn_checkbox_to_indeterminate_from_checked_box_inner_merged_animation.xml
+set;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\anim\btn_checkbox_to_indeterminate_from_checked_icon_null_animation.xml
+set;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\anim\btn_checkbox_to_indeterminate_from_unchecked_box_inner_merged_animation.xml
+set;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\anim\btn_checkbox_to_indeterminate_from_unchecked_box_outer_merged_animation.xml
+set;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\anim\btn_checkbox_to_indeterminate_from_unchecked_icon_null_animation.xml
+set;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\anim\btn_checkbox_to_unchecked_box_inner_merged_animation.xml
+set;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\anim\btn_checkbox_to_unchecked_check_path_merged_animation.xml
+set;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\anim\btn_checkbox_to_unchecked_from_indeterminate_box_inner_merged_animation.xml
+set;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\anim\btn_checkbox_to_unchecked_from_indeterminate_check_path_merged_animation.xml
+set;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\anim\btn_checkbox_to_unchecked_from_indeterminate_icon_null_animation.xml
+set;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\anim\btn_checkbox_to_unchecked_icon_null_animation.xml
+set;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\45\jl\res\anim\enterfromleft.xml
+set;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\45\jl\res\anim\enterfromright.xml
+set;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\45\jl\res\anim\exittoleft.xml
+set;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\45\jl\res\anim\exittoright.xml
+string;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\45\jl\res\values\strings.xml
+string;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\47\jl\res\values\strings.xml
+string;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\5\jl\res\values\strings.xml
+style;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\45\jl\res\values\styles.xml
 style;obj\Debug\90\res\values\styles.xml
-target;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\drawable\btn_checkbox_checked_to_indeterminate_animation.xml
-target;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\drawable\btn_checkbox_checked_to_unchecked_animation.xml
-target;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\drawable\btn_checkbox_indeterminate_to_checked_animation.xml
-target;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\drawable\btn_checkbox_indeterminate_to_unchecked_animation.xml
-target;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\drawable\btn_checkbox_unchecked_to_checked_animation.xml
-target;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\drawable\btn_checkbox_unchecked_to_indeterminate_animation.xml
-transition;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\drawable\btn_checkbox.xml
-translate;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\45\jl\res\anim\enterfromleft.xml
-translate;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\45\jl\res\anim\enterfromright.xml
-translate;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\45\jl\res\anim\exittoleft.xml
-translate;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\45\jl\res\anim\exittoright.xml
-vector;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\drawable\btn_checkbox_checked.xml
-vector;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\drawable\btn_checkbox_indeterminate.xml
-vector;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\drawable\btn_checkbox_unchecked.xml
-xamarin.forms.platform.android.appcompat.FormsViewPager;E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\45\jl\res\layout\rootlayout.xml
+target;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\drawable\btn_checkbox_checked_to_indeterminate_animation.xml
+target;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\drawable\btn_checkbox_checked_to_unchecked_animation.xml
+target;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\drawable\btn_checkbox_indeterminate_to_checked_animation.xml
+target;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\drawable\btn_checkbox_indeterminate_to_unchecked_animation.xml
+target;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\drawable\btn_checkbox_unchecked_to_checked_animation.xml
+target;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\drawable\btn_checkbox_unchecked_to_indeterminate_animation.xml
+transition;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\drawable\btn_checkbox.xml
+translate;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\45\jl\res\anim\enterfromleft.xml
+translate;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\45\jl\res\anim\enterfromright.xml
+translate;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\45\jl\res\anim\exittoleft.xml
+translate;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\45\jl\res\anim\exittoright.xml
+vector;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\drawable\btn_checkbox_checked.xml
+vector;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\drawable\btn_checkbox_indeterminate.xml
+vector;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\3\jl\res\drawable\btn_checkbox_unchecked.xml
+xamarin.forms.platform.android.appcompat.FormsViewPager;C:\Users\andre\Desktop\FWTAppMVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\lp\45\jl\res\layout\rootlayout.xml
