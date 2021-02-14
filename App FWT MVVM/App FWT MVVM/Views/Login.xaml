@@ -61,21 +61,43 @@
                                Text="{Binding Password}"/>
 
                         </inputLayout:SfTextInputLayout>
+                    <Label HorizontalOptions="End" Text="¿Olvidaste tu contraseña?" TextColor="White" TextDecorations="Underline">
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding ForgotCommand}"/>
+                        </Label.GestureRecognizers>
+                    </Label>
 
                 </StackLayout>
+                    
+                    
 
                 <StackLayout Padding="0,20,0,0" Spacing="10">
+                    
+                    
+                    
+                    
+                    
+                    
                     <syncfusion:SfButton x:Name="loginbtn"
                                          Text="Iniciar Sesión"
                                          
                                          TextColor="White"
                                          HorizontalOptions="CenterAndExpand"
                                          VerticalOptions="Center"
-                                         BackgroundColor="#0046FE"
+                                       
                                          CornerRadius="20"
-                                         WidthRequest="200"
+                                         WidthRequest="300"
                                          BorderColor="#FFFFFF"
-                                         Command="{Binding LoginCommand}" Padding="8">
+                                         Command="{Binding LoginCommand}" Padding="8"
+                                         >
+                        <syncfusion:SfButton.BackgroundGradient>
+                            <gradient:SfLinearGradientBrush>
+                                <gradient:SfLinearGradientBrush.GradientStops>
+                                    <gradient:SfGradientStop Color="#0046FE" Offset="0"/>
+                                    <gradient:SfGradientStop Color="#3f6bdf" Offset="1"/>
+                                </gradient:SfLinearGradientBrush.GradientStops>
+                            </gradient:SfLinearGradientBrush>
+                        </syncfusion:SfButton.BackgroundGradient>
                         <syncfusion:SfButton.BorderWidth>
                             <OnPlatform x:TypeArguments="x:Double">
                                 <On Platform="Android" Value="1"/>
@@ -88,11 +110,19 @@
                                          TextColor="White"
                                          HorizontalOptions="CenterAndExpand"
                                          VerticalOptions="Center"
-                                         BackgroundColor="#1BB219"
+                                     
                                          CornerRadius="20"
-                                         WidthRequest="200"
+                                         WidthRequest="300"
                                          BorderColor="#FFFFFF"
                                          Command="{Binding RegisterCommand}" Padding="8">
+                        <syncfusion:SfButton.BackgroundGradient>
+                            <gradient:SfLinearGradientBrush>
+                                <gradient:SfLinearGradientBrush.GradientStops>
+                                    <gradient:SfGradientStop Color="#1BB219" Offset="0"/>
+                                    <gradient:SfGradientStop Color="#5cd65b" Offset="1"/>
+                                </gradient:SfLinearGradientBrush.GradientStops>
+                            </gradient:SfLinearGradientBrush>
+                        </syncfusion:SfButton.BackgroundGradient>
                         <syncfusion:SfButton.BorderWidth>
                             <OnPlatform x:TypeArguments="x:Double">
                                 <On Platform="Android" Value="1"/>

@@ -59,6 +59,14 @@ namespace App_FWT_MVVM.ViewModels
             }
         }
 
+        public Command ForgotCommand
+        {
+            get
+            {
+                return new Command(Forgot);
+            }
+        }
+
         private Account data;
 
         public Account Data { get => data;
@@ -66,6 +74,11 @@ namespace App_FWT_MVVM.ViewModels
                 data = value; 
             }
             
+        }
+
+        public async void Forgot()
+        {
+            await App.Current.MainPage.DisplayAlert("Evento", "Recuperar contraseña", "Ok");
         }
 
         public async void Register()
