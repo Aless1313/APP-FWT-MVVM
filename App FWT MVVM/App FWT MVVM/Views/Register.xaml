@@ -1,28 +1,172 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="App_FWT_MVVM.Views.Register">
+             xmlns:gradient ="clr-namespace:Syncfusion.XForms.Graphics;assembly=Syncfusion.Core.XForms"
+             xmlns:inputLayout="clr-namespace:Syncfusion.XForms.TextInputLayout;assembly=Syncfusion.Core.XForms"
+             xmlns:syncfusion="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
+             x:Class="App_FWT_MVVM.Views.Register" Title="Registro" >
+    
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Usuario: "/>
-            <Entry x:Name="User" 
-                   Text="{Binding User}"/>
-            <Label Text="Mail: "/>
-            <Entry x:Name="Mail"
-                   Text="{Binding Mail}"/>
-            <Label Text="Password: "/>
-            <Entry x:Name="Password"
-                   Text="{Binding Password}"/>
-            <Entry x:Name="Mac"
-                   Placeholder="Codigo de dispositivo"
-                   IsEnabled="False"
-                   Text="{Binding Mac}"/>
-            <Button x:Name="scanbtn"
-                    Text="Escanear dispositivo"
-                    Command="{Binding ScanCommand}"/>
-            <Button Text="Register"
-                    x:Name="registerbtn"
-                    Command="{Binding RegisterCommand}"/>
-        </StackLayout>
+        <Grid>
+            <gradient:SfGradientView>
+                <gradient:SfGradientView.BackgroundBrush>
+                    <gradient:SfLinearGradientBrush>
+                        <gradient:SfLinearGradientBrush.GradientStops>
+                            <gradient:SfGradientStop Color="#338CFF" Offset="0.0" />
+                            <gradient:SfGradientStop Color="#219BC4" Offset="1.0" />
+                        </gradient:SfLinearGradientBrush.GradientStops>
+                    </gradient:SfLinearGradientBrush>
+                </gradient:SfGradientView.BackgroundBrush>
+            </gradient:SfGradientView>
+            <StackLayout Padding="15,5,15,5">
+
+
+                <inputLayout:SfTextInputLayout Hint="Nombre"
+                                                   x:Name="txt_nombresf"
+                                                   ContainerType="Outlined"
+                                                 
+                                                   IsHintAlwaysFloated="False"
+                                                   OutlineCornerRadius="10"
+                                                   Opacity="1" ContainerBackgroundColor="Transparent"
+                                                       FocusedColor="White" UnfocusedColor="White" 
+                                                       
+                                                       >
+                    <Entry x:Name = "User"  
+                               HeightRequest = "50"    
+                               Keyboard = "Email" 
+                               Text="{Binding User}" TextColor="White"/>
+
+                </inputLayout:SfTextInputLayout>
+
+                <inputLayout:SfTextInputLayout Hint="Correo"
+                                                   x:Name="txt_correosf"
+                                                   ContainerType="Outlined"
+                                                 
+                                                   IsHintAlwaysFloated="False"
+                                                   OutlineCornerRadius="10"
+                                                   Opacity="1" ContainerBackgroundColor="Transparent"
+                                                       FocusedColor="White" UnfocusedColor="White" 
+                                                       
+                                                       >
+                    <Entry x:Name = "Mail"  
+                               HeightRequest = "50"    
+                               Keyboard = "Email" 
+                               Text="{Binding Mail}" TextColor="White"/>
+
+                </inputLayout:SfTextInputLayout>
+
+                <inputLayout:SfTextInputLayout Hint="Contraseña"
+                                                   x:Name="txt_passwordsf"
+                                                   ContainerType="Outlined"
+                                                 
+                                                   IsHintAlwaysFloated="False"
+                                                   OutlineCornerRadius="10"
+                                                   Opacity="1" ContainerBackgroundColor="Transparent"
+                                                       FocusedColor="White" UnfocusedColor="White" 
+                                                       
+                                                       >
+                    <Entry x:Name = "Password"  
+                               HeightRequest = "50"    
+                               Keyboard = "Email" 
+                               Text="{Binding Password}" TextColor="White"/>
+
+                </inputLayout:SfTextInputLayout>
+
+
+
+
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="2*"/>
+                    </Grid.ColumnDefinitions>
+                    <inputLayout:SfTextInputLayout Hint="Codigo de dispositivo"
+                                                   x:Name="txt_dispositivosf"
+                                                   ContainerType="Outlined"
+                                                   Grid.Column="1"
+                                                   IsHintAlwaysFloated="False"
+                                                 OutlineCornerRadius="10"
+                                                   Opacity="1" ContainerBackgroundColor="Transparent"
+                                                       FocusedColor="White" UnfocusedColor="White" 
+                                                       
+                                                       >
+                        <Entry x:Name = "Mac"  
+                               HeightRequest = "50"    
+                               Keyboard = "Email" 
+                                 
+                              
+                                                   IsEnabled="False"
+                               Text="{Binding Mac}" TextColor="White"/>
+                                
+                        
+
+                    </inputLayout:SfTextInputLayout>
+
+                    <syncfusion:SfButton x:Name="scanbtn"
+                                         Text="Escanear dispositivo"
+                                         Grid.Column="0"
+                                         VerticalTextAlignment="Center"
+                                         TextColor="White"
+                                         HorizontalOptions="CenterAndExpand"
+                                         VerticalOptions="Center"
+                                        
+                                         CornerRadius="20"
+                                         WidthRequest="300"
+                                         BorderColor="#FFFFFF"
+                                         Command="{Binding ScanCommand}" Padding="8"
+                                         >
+                        <syncfusion:SfButton.BackgroundGradient>
+                            <gradient:SfLinearGradientBrush>
+                                <gradient:SfLinearGradientBrush.GradientStops>
+                                    <gradient:SfGradientStop Color="#0046FE" Offset="0"/>
+                                    <gradient:SfGradientStop Color="#3f6bdf" Offset="1"/>
+                                </gradient:SfLinearGradientBrush.GradientStops>
+                            </gradient:SfLinearGradientBrush>
+                        </syncfusion:SfButton.BackgroundGradient>
+                        <syncfusion:SfButton.BorderWidth>
+                            <OnPlatform x:TypeArguments="x:Double">
+                                <On Platform="Android" Value="1"/>
+                            </OnPlatform>
+                        </syncfusion:SfButton.BorderWidth>
+                    </syncfusion:SfButton>
+
+                </Grid>
+
+
+                <syncfusion:SfButton x:Name="Registerx"
+                                         Text="Registrar"
+                                         Grid.Column="1"
+                                         TextColor="White"
+                                         HorizontalOptions="CenterAndExpand"
+                                         VerticalOptions="EndAndExpand"
+                                         Margin="35"
+                                         CornerRadius="20"
+                                         WidthRequest="300"
+                                         BorderColor="#FFFFFF"
+                                         Command="{Binding RegisterCommand}" Padding="0,0,0,0"
+                                         >
+                    <syncfusion:SfButton.BackgroundGradient>
+                        <gradient:SfLinearGradientBrush>
+                            <gradient:SfLinearGradientBrush.GradientStops>
+                                <gradient:SfGradientStop Color="#0046FE" Offset="0"/>
+                                <gradient:SfGradientStop Color="#3f6bdf" Offset="1"/>
+                            </gradient:SfLinearGradientBrush.GradientStops>
+                        </gradient:SfLinearGradientBrush>
+                    </syncfusion:SfButton.BackgroundGradient>
+                    <syncfusion:SfButton.BorderWidth>
+                        <OnPlatform x:TypeArguments="x:Double">
+                            <On Platform="Android" Value="1"/>
+                        </OnPlatform>
+                    </syncfusion:SfButton.BorderWidth>
+                </syncfusion:SfButton>
+                
+                
+
+            </StackLayout>
+
+
+
+        </Grid>
+        
     </ContentPage.Content>
 </ContentPage>
