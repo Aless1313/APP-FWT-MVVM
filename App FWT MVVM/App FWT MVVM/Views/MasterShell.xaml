@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Shell xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:App_FWT_MVVM.Views"
+             x:Class="App_FWT_MVVM.Views.MasterShell">
+
+    <FlyoutItem Title="MyTabApp"
+                Shell.TabBarIsVisible="False"
+                FlyoutDisplayOptions="AsMultipleItems">
+        <ShellContent Title="Bears" IsTabStop="True" ContentTemplate="{DataTemplate local:DashboardShell}"/>
+        <ShellContent Title="hOLA" IsTabStop="True" ContentTemplate="{DataTemplate local:LimitadoresShell}"/>
+    </FlyoutItem>
+
+    <ShellContent Title="about" ContentTemplate="{DataTemplate local:DashboardShell}"/>
+
+</Shell>
