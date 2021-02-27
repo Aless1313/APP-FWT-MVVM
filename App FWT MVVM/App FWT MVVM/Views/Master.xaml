@@ -4,13 +4,21 @@
              xmlns:local ="clr-namespace:App_FWT_MVVM"
              xmlns:views="clr-namespace:App_FWT_MVVM.Views"
              x:Class="App_FWT_MVVM.Views.Master">
-    
+    <Shell.FlyoutHeader>
+        <views:HeaderContentView/>
+    </Shell.FlyoutHeader>
+
+  
     <FlyoutItem Title="Master"
                 Shell.TabBarIsVisible="false"
                 FlyoutDisplayOptions="AsMultipleItems">
-        <ShellContent Title="Bears" IsTabStop="True" ContentTemplate="{DataTemplate views:Dashboard}"/>
-        <ShellContent Title="xd" IsTabStop="True" ContentTemplate="{DataTemplate views:Register}"/>
+        <ShellContent Title="DASHBOARD" Icon="image.png" IsTabStop="True" ContentTemplate="{DataTemplate views:Dashboard}"/>
+        <ShellContent Title="GASTO" IsTabStop="True" ContentTemplate="{DataTemplate views:Dashboard}"/>
+        <ShellContent Title="GRAFICA" IsTabStop="True" ContentTemplate="{DataTemplate views:Dashboard}"/>
     </FlyoutItem>
+    
+    
+    <ShellContent Title="CONFIGURACIÓN" Icon="IconConfig.png" ContentTemplate="{DataTemplate views:Perfil}"/>
 
-    <ShellContent Title="about" ContentTemplate="{DataTemplate views:Dashboard}"/>
+
 </Shell>

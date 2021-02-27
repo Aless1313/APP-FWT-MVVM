@@ -16,7 +16,7 @@ namespace App_FWT_MVVM.Views
         {
             InitializeComponent();
             pointer.Value = 1;
-           // Navigation.PushModalAsync(new Login());
+            //Navigation.PushModalAsync(new Login());
         }
     }
 }

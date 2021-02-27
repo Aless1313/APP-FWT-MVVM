@@ -15,6 +15,7 @@ namespace App_FWT_MVVM.Views
         public Master()
         {
             InitializeComponent();
+            //new NavigationPage(new Login());
         }
     }
 }
