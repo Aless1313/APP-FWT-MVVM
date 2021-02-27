@@ -60,3 +60,5 @@ E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM\obj\Debug\netstandard
 E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM\obj\Debug\netstandard2.0\Views\Master.xaml.g.cs
 E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM\obj\Debug\netstandard2.0\Views\Perfil.xaml.g.cs
 E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM\obj\Debug\netstandard2.0\Views\HeaderContentView.xaml.g.cs
+E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM\obj\Debug\netstandard2.0\Views\Historial.xaml.g.cs
+E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM\obj\Debug\netstandard2.0\Views\Presupuesto.xaml.g.cs

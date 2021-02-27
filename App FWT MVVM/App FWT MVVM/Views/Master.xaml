@@ -3,7 +3,9 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local ="clr-namespace:App_FWT_MVVM"
              xmlns:views="clr-namespace:App_FWT_MVVM.Views"
-             x:Class="App_FWT_MVVM.Views.Master">
+             x:Class="App_FWT_MVVM.Views.Master" FlyoutIcon="menuuw.png"> 
+    
+    
     <Shell.FlyoutHeader>
         <views:HeaderContentView/>
     </Shell.FlyoutHeader>
@@ -12,13 +14,13 @@
     <FlyoutItem Title="Master"
                 Shell.TabBarIsVisible="false"
                 FlyoutDisplayOptions="AsMultipleItems">
-        <ShellContent Title="DASHBOARD" Icon="image.png" IsTabStop="True" ContentTemplate="{DataTemplate views:Dashboard}"/>
-        <ShellContent Title="GASTO" IsTabStop="True" ContentTemplate="{DataTemplate views:Dashboard}"/>
-        <ShellContent Title="GRAFICA" IsTabStop="True" ContentTemplate="{DataTemplate views:Dashboard}"/>
+        <ShellContent Title="Dashboard" Icon="speedometer1.png" IsTabStop="True" ContentTemplate="{DataTemplate views:Dashboard}"/>
+        <ShellContent Title="Presupuesto" Icon="hand.png" IsTabStop="True" ContentTemplate="{DataTemplate views:Presupuesto}"/>
+        <ShellContent Title="Historial" IsTabStop="True" Icon="chart.png" ContentTemplate="{DataTemplate views:Historial}"/>
     </FlyoutItem>
     
     
-    <ShellContent Title="CONFIGURACIÓN" Icon="IconConfig.png" ContentTemplate="{DataTemplate views:Perfil}"/>
+    <ShellContent Title="Configuración" Icon="options.png" ContentTemplate="{DataTemplate views:Perfil}"/>
 
 
 </Shell>

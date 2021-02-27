@@ -1775,3 +1775,10 @@ E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\
 E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
 E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\res\drawable\a.png
 E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\res\drawable\b.png
+E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\res\drawable\settings.png
+E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\res\drawable\speedometer1.png
+E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\res\drawable\chart.png
+E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\res\drawable\hand.png
+E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\res\drawable\menu.png
+E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\res\drawable\menuuw.png
+E:\GIT APP FWT MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\res\drawable\options.png

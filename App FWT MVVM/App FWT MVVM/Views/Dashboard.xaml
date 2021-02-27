@@ -6,7 +6,8 @@
              xmlns:syncfusion="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
              xmlns:border="clr-namespace:Syncfusion.XForms.Border;assembly=Syncfusion.Core.XForms"
              xmlns:gauge="clr-namespace:Syncfusion.SfGauge.XForms;assembly=Syncfusion.SfGauge.XForms"
-             NavigationPage.HasBackButton="False" NavigationPage.HasNavigationBar="False">
+             NavigationPage.HasBackButton="False" NavigationPage.HasNavigationBar="False" Title="Dashboard" BackgroundColor="#219BC4">
+    
     <ContentPage.Content>
 
         <Grid>
@@ -65,8 +66,7 @@
                                     <gauge:Scale.Pointers>
                                         <gauge:NeedlePointer x:Name="pointer" KnobRadius="15" KnobStrokeColor="White"
                                                                  KnobStrokeWidth="3" KnobColor="White" KnobRadiusFactor="0.1" 
-                                                                 Color="White" Type="Triangle"
-                                                                 />
+                                                                 Color="White" Type="Triangle" />
                                     </gauge:Scale.Pointers>
                                 </gauge:Scale>
                             </gauge:SfCircularGauge.Scales>
