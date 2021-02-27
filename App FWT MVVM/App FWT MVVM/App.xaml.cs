@@ -13,7 +13,7 @@ namespace App_FWT_MVVM
             InitializeComponent();
 
             //MainPage = new NavigationPage(new Login());
-            MainPage = new NavigationPage(new MasterShell());
+            MainPage = new Master();
         }
 
         protected override void OnStart()
