@@ -21,22 +21,6 @@
             <StackLayout Padding="15,5,15,5">
 
 
-                <inputLayout:SfTextInputLayout Hint="Nombre"
-                                                   x:Name="txt_nombresf"
-                                                   ContainerType="Outlined"
-                                                 
-                                                   IsHintAlwaysFloated="False"
-                                                   OutlineCornerRadius="10"
-                                                   Opacity="1" ContainerBackgroundColor="Transparent"
-                                                       FocusedColor="White" UnfocusedColor="White" 
-                                                       
-                                                       >
-                    <Entry x:Name = "User"  
-                               HeightRequest = "50"    
-                               Keyboard = "Email" 
-                               Text="{Binding User}" TextColor="White"/>
-
-                </inputLayout:SfTextInputLayout>
 
                 <inputLayout:SfTextInputLayout Hint="Correo"
                                                    x:Name="txt_correosf"
@@ -71,66 +55,6 @@
                                Text="{Binding Password}" TextColor="White"/>
 
                 </inputLayout:SfTextInputLayout>
-
-
-
-
-                <Grid>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="*"/>
-                        <ColumnDefinition Width="2*"/>
-                    </Grid.ColumnDefinitions>
-                    <inputLayout:SfTextInputLayout Hint="Codigo de dispositivo"
-                                                   x:Name="txt_dispositivosf"
-                                                   ContainerType="Outlined"
-                                                   Grid.Column="1"
-                                                   IsHintAlwaysFloated="False"
-                                                 OutlineCornerRadius="10"
-                                                   Opacity="1" ContainerBackgroundColor="Transparent"
-                                                       FocusedColor="White" UnfocusedColor="White" 
-                                                       
-                                                       >
-                        <Entry x:Name = "Mac"  
-                               HeightRequest = "50"    
-                               Keyboard = "Email" 
-                                 
-                              
-                                                   IsEnabled="False"
-                               Text="{Binding Mac}" TextColor="White"/>
-                                
-                        
-
-                    </inputLayout:SfTextInputLayout>
-
-                    <syncfusion:SfButton x:Name="scanbtn"
-                                         Text="Escanear dispositivo"
-                                         Grid.Column="0"
-                                         VerticalTextAlignment="Center"
-                                         TextColor="White"
-                                         HorizontalOptions="CenterAndExpand"
-                                         VerticalOptions="Center"
-                                        
-                                         CornerRadius="20"
-                                         WidthRequest="300"
-                                         BorderColor="#FFFFFF"
-                                         Command="{Binding ScanCommand}" Padding="8"
-                                         >
-                        <syncfusion:SfButton.BackgroundGradient>
-                            <gradient:SfLinearGradientBrush>
-                                <gradient:SfLinearGradientBrush.GradientStops>
-                                    <gradient:SfGradientStop Color="#0046FE" Offset="0"/>
-                                    <gradient:SfGradientStop Color="#3f6bdf" Offset="1"/>
-                                </gradient:SfLinearGradientBrush.GradientStops>
-                            </gradient:SfLinearGradientBrush>
-                        </syncfusion:SfButton.BackgroundGradient>
-                        <syncfusion:SfButton.BorderWidth>
-                            <OnPlatform x:TypeArguments="x:Double">
-                                <On Platform="Android" Value="1"/>
-                            </OnPlatform>
-                        </syncfusion:SfButton.BorderWidth>
-                    </syncfusion:SfButton>
-
-                </Grid>
 
 
                 <syncfusion:SfButton x:Name="Registerx"

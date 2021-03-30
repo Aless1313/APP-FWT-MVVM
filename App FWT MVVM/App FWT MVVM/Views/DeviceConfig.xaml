@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:gradient ="clr-namespace:Syncfusion.XForms.Graphics;assembly=Syncfusion.Core.XForms"
+             xmlns:inputLayout="clr-namespace:Syncfusion.XForms.TextInputLayout;assembly=Syncfusion.Core.XForms"
+             xmlns:syncfusion="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
+             x:Class="App_FWT_MVVM.DeviceConfig">
+    <ContentPage.Content>
+        <Grid>
+            <gradient:SfGradientView>
+                <gradient:SfGradientView.BackgroundBrush>
+                    <gradient:SfLinearGradientBrush>
+                        <gradient:SfLinearGradientBrush.GradientStops>
+                            <gradient:SfGradientStop Color="#338CFF" Offset="0.0" />
+                            <gradient:SfGradientStop Color="#219BC4" Offset="1.0" />
+                        </gradient:SfLinearGradientBrush.GradientStops>
+                    </gradient:SfLinearGradientBrush>
+                </gradient:SfGradientView.BackgroundBrush>
+            </gradient:SfGradientView>
+            <StackLayout Padding="15,5,15,5">
+
+                <StackLayout HorizontalOptions="CenterAndExpand">
+                    <Label FontAttributes="Bold" TextColor="White" FontSize="Large" Padding="0,30,0,100">Configuración de dispositivo</Label>
+                </StackLayout>
+
+
+                <Label TextColor="white">Ingrese nombre de red WiFi</Label>
+                <inputLayout:SfTextInputLayout Hint="Red"
+                                                   x:Name="txt_nombresf"
+                                                   ContainerType="Outlined"
+                                                   IsHintAlwaysFloated="False"
+                                                   OutlineCornerRadius="10"
+                                                   Opacity="1" ContainerBackgroundColor="Transparent"
+                                                   FocusedColor="White" UnfocusedColor="White">
+                    <Entry x:Name = "User"  
+                               HeightRequest = "50"    
+                               Keyboard = "Email" 
+                               Text="{Binding User}" TextColor="White"/>
+
+                </inputLayout:SfTextInputLayout>
+
+
+                <Label TextColor="white">Ingrese contraseñar de red WiFi</Label>
+                <inputLayout:SfTextInputLayout Hint="Contraseña"
+                                                   x:Name="txt_passwordsf"
+                                                   ContainerType="Outlined"
+                                                   IsHintAlwaysFloated="False"
+                                                   OutlineCornerRadius="10"
+                                                   Opacity="1" ContainerBackgroundColor="Transparent"
+                                                   FocusedColor="White" UnfocusedColor="White">
+                    <Entry x:Name = "Password"  
+                               HeightRequest = "50"    
+                               Keyboard = "Email" 
+                               Text="{Binding Password}" TextColor="White"/>
+
+                </inputLayout:SfTextInputLayout>
+
+
+
+
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="2*"/>
+                    </Grid.ColumnDefinitions>
+                    <inputLayout:SfTextInputLayout Hint="Codigo de dispositivo"
+                                                   x:Name="txt_dispositivosf"
+                                                   ContainerType="Outlined"
+                                                   Grid.Column="1"
+                                                   IsHintAlwaysFloated="False"
+                                                 OutlineCornerRadius="10"
+                                                   Opacity="1" ContainerBackgroundColor="Transparent"
+                                                       FocusedColor="White" UnfocusedColor="White" 
+                                                       
+                                                       >
+                        <Entry x:Name = "Mac"  
+                               HeightRequest = "50"    
+                               Keyboard = "Email" 
+                                 
+                              
+                                                   IsEnabled="False"
+                               Text="{Binding Mac}" TextColor="White"/>
+
+
+
+                    </inputLayout:SfTextInputLayout>
+
+                    <syncfusion:SfButton x:Name="scanbtn"
+                                         Text="Escanear dispositivo"
+                                         Grid.Column="0"
+                                         VerticalTextAlignment="Center"
+                                         TextColor="White"
+                                         HorizontalOptions="CenterAndExpand"
+                                         VerticalOptions="Center"
+                                        
+                                         CornerRadius="20"
+                                         WidthRequest="300"
+                                         BorderColor="#FFFFFF"
+                                         Command="{Binding ScanCommand}" Padding="8"
+                                         >
+                        <syncfusion:SfButton.BackgroundGradient>
+                            <gradient:SfLinearGradientBrush>
+                                <gradient:SfLinearGradientBrush.GradientStops>
+                                    <gradient:SfGradientStop Color="#0046FE" Offset="0"/>
+                                    <gradient:SfGradientStop Color="#3f6bdf" Offset="1"/>
+                                </gradient:SfLinearGradientBrush.GradientStops>
+                            </gradient:SfLinearGradientBrush>
+                        </syncfusion:SfButton.BackgroundGradient>
+                        <syncfusion:SfButton.BorderWidth>
+                            <OnPlatform x:TypeArguments="x:Double">
+                                <On Platform="Android" Value="1"/>
+                            </OnPlatform>
+                        </syncfusion:SfButton.BorderWidth>
+                    </syncfusion:SfButton>
+
+                </Grid>
+
+
+                <syncfusion:SfButton x:Name="Registerx"
+                                         Text="Registrar dispositivo"
+                                         Grid.Column="1"
+                                         TextColor="White"
+                                         HorizontalOptions="CenterAndExpand"
+                                         VerticalOptions="EndAndExpand"
+                                         Margin="35"
+                                         CornerRadius="20"
+                                         WidthRequest="300"
+                                         BorderColor="#FFFFFF"
+                                         Command="{Binding RegisterCommand}" Padding="0,0,0,0">
+                    <syncfusion:SfButton.BackgroundGradient>
+                        <gradient:SfLinearGradientBrush>
+                            <gradient:SfLinearGradientBrush.GradientStops>
+                                <gradient:SfGradientStop Color="#0046FE" Offset="0"/>
+                                <gradient:SfGradientStop Color="#3f6bdf" Offset="1"/>
+                            </gradient:SfLinearGradientBrush.GradientStops>
+                        </gradient:SfLinearGradientBrush>
+                    </syncfusion:SfButton.BackgroundGradient>
+                    <syncfusion:SfButton.BorderWidth>
+                        <OnPlatform x:TypeArguments="x:Double">
+                            <On Platform="Android" Value="1"/>
+                        </OnPlatform>
+                    </syncfusion:SfButton.BorderWidth>
+                </syncfusion:SfButton>
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

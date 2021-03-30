@@ -1,24 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "E:\\GIT APP FWT MVVM\\APP-FWT-MVVM\\App FWT MVVM\\App FWT MVVM.Android\\App FWT MVVM.Android.csproj": {}
+    "E:\\APP BETA FWT\\APP-FWT-MVVM\\App FWT MVVM\\App FWT MVVM.Android\\App FWT MVVM.Android.csproj": {}
   },
   "projects": {
-    "E:\\GIT APP FWT MVVM\\APP-FWT-MVVM\\App FWT MVVM\\App FWT MVVM.Android\\App FWT MVVM.Android.csproj": {
+    "E:\\APP BETA FWT\\APP-FWT-MVVM\\App FWT MVVM\\App FWT MVVM.Android\\App FWT MVVM.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\GIT APP FWT MVVM\\APP-FWT-MVVM\\App FWT MVVM\\App FWT MVVM.Android\\App FWT MVVM.Android.csproj",
+        "projectUniqueName": "E:\\APP BETA FWT\\APP-FWT-MVVM\\App FWT MVVM\\App FWT MVVM.Android\\App FWT MVVM.Android.csproj",
         "projectName": "App FWT MVVM.Android",
-        "projectPath": "E:\\GIT APP FWT MVVM\\APP-FWT-MVVM\\App FWT MVVM\\App FWT MVVM.Android\\App FWT MVVM.Android.csproj",
+        "projectPath": "E:\\APP BETA FWT\\APP-FWT-MVVM\\App FWT MVVM\\App FWT MVVM.Android\\App FWT MVVM.Android.csproj",
         "packagesPath": "C:\\Users\\aless\\.nuget\\packages\\",
-        "outputPath": "E:\\GIT APP FWT MVVM\\APP-FWT-MVVM\\App FWT MVVM\\App FWT MVVM.Android\\obj\\",
+        "outputPath": "E:\\APP BETA FWT\\APP-FWT-MVVM\\App FWT MVVM\\App FWT MVVM.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\aless\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -32,8 +34,8 @@
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "E:\\GIT APP FWT MVVM\\APP-FWT-MVVM\\App FWT MVVM\\App FWT MVVM\\App FWT MVVM.csproj": {
-                "projectPath": "E:\\GIT APP FWT MVVM\\APP-FWT-MVVM\\App FWT MVVM\\App FWT MVVM\\App FWT MVVM.csproj"
+              "E:\\APP BETA FWT\\APP-FWT-MVVM\\App FWT MVVM\\App FWT MVVM\\App FWT MVVM.csproj": {
+                "projectPath": "E:\\APP BETA FWT\\APP-FWT-MVVM\\App FWT MVVM\\App FWT MVVM\\App FWT MVVM.csproj"
               }
             }
           }
@@ -78,20 +80,22 @@
         }
       }
     },
-    "E:\\GIT APP FWT MVVM\\APP-FWT-MVVM\\App FWT MVVM\\App FWT MVVM\\App FWT MVVM.csproj": {
+    "E:\\APP BETA FWT\\APP-FWT-MVVM\\App FWT MVVM\\App FWT MVVM\\App FWT MVVM.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\GIT APP FWT MVVM\\APP-FWT-MVVM\\App FWT MVVM\\App FWT MVVM\\App FWT MVVM.csproj",
+        "projectUniqueName": "E:\\APP BETA FWT\\APP-FWT-MVVM\\App FWT MVVM\\App FWT MVVM\\App FWT MVVM.csproj",
         "projectName": "App FWT MVVM",
-        "projectPath": "E:\\GIT APP FWT MVVM\\APP-FWT-MVVM\\App FWT MVVM\\App FWT MVVM\\App FWT MVVM.csproj",
+        "projectPath": "E:\\APP BETA FWT\\APP-FWT-MVVM\\App FWT MVVM\\App FWT MVVM\\App FWT MVVM.csproj",
         "packagesPath": "C:\\Users\\aless\\.nuget\\packages\\",
-        "outputPath": "E:\\GIT APP FWT MVVM\\APP-FWT-MVVM\\App FWT MVVM\\App FWT MVVM\\obj\\",
+        "outputPath": "E:\\APP BETA FWT\\APP-FWT-MVVM\\App FWT MVVM\\App FWT MVVM\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\aless\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -167,7 +171,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -16,7 +16,7 @@
                 FlyoutDisplayOptions="AsMultipleItems">
         <ShellContent Title="Dashboard" Icon="speedometer1.png" IsTabStop="True" ContentTemplate="{DataTemplate views:Dashboard}"/>
         <ShellContent Title="Presupuesto" Icon="hand.png" IsTabStop="True" ContentTemplate="{DataTemplate views:Presupuesto}"/>
-        <ShellContent Title="Historial" IsTabStop="True" Icon="chart.png" ContentTemplate="{DataTemplate views:Historial}"/>
+      
     </FlyoutItem>
     
     

@@ -96,7 +96,7 @@ namespace App_FWT_MVVM.ViewModels
 
         public async void Register()
         {
-            if (string.IsNullOrEmpty(User) || string.IsNullOrEmpty(Mail) || string.IsNullOrEmpty(Password)  || string.IsNullOrEmpty(Mac))
+            if ( string.IsNullOrEmpty(Mail) || string.IsNullOrEmpty(Password))
             {
                 await App.Current.MainPage.DisplayAlert("Campos vacios", "Ingrese información", "Ok");
             }
@@ -105,7 +105,7 @@ namespace App_FWT_MVVM.ViewModels
                 if (RegexUtilities.IsValidEmail(Mail))
                 {
                    
-                        await RegisterAccount("http://developerfwt.atwebpages.com/php/registro.php?user=" + User.ToString() + "&mail=" + Mail.ToString() + "&password=" + Password.ToString() + "&mac=" + Mac.ToString());              
+                        await RegisterAccount("https://dev-fwt.ga/php/registro.php?mail=" + Mail.ToString() + "&password=" + Password.ToString());              
                 }
                 else
                 {

@@ -94,7 +94,7 @@ namespace App_FWT_MVVM.ViewModels
             }
             else
             {
-                await GetData("http://developerfwt.atwebpages.com/php/login.php?mail=" + Email.ToString() + "&password=" + Password.ToString() );
+                await GetData("https://dev-fwt.ga/php/login.php?mail=" + Email.ToString() + "&password=" + Password.ToString() );
             }
         }
 
