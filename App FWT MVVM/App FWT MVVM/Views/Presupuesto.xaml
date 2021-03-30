@@ -7,15 +7,21 @@
     
     
     <ContentPage.Content>
-        <StackLayout>
+        <StackLayout HeightRequest="150">
             <numeric:SfNumericUpDown x:Name="numericUpDown" 
-                                     AllowNull="True"
+                                     AllowNull="False"
                                      Minimum="35"
                                      SpinButtonAlignment="Both" 
                                      FontSize="30"
                                      FormatString="c"
-                                     
+                                     AutoReverse="true"
+                                     StepValue="5"
+                                     HeightRequest="100"
+                                     TextAlignment="Center"
+                                     IsEditable="False"
                                      />
+
+
             <Label Text="Ingrese su presupuesto de gasto de agua mensual" FontSize="15" HorizontalOptions="Center" TextColor="White"/>
 
 
