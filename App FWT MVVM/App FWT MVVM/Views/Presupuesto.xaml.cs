@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Globalization;
+using Syncfusion.SfNumericUpDown;
+using Syncfusion.SfNumericUpDown.XForms;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -15,6 +18,8 @@ namespace App_FWT_MVVM.Views
         public Presupuesto()
         {
             InitializeComponent();
+            
         }
+        
     }
 }

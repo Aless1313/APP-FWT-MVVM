@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("App_FWT_MVVM.Views.Master.xaml", "Views/Master.xaml", typeof(global::App_FWT_MVVM.Views.Master))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("App FWT MVVM.Views.Master.xaml", "Views/Master.xaml", typeof(global::App_FWT_MVVM.Views.Master))]
 
 namespace App_FWT_MVVM.Views {
     

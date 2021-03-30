@@ -14,6 +14,7 @@
           "Syncfusion.Xamarin.Buttons": "18.4.0.42",
           "Syncfusion.Xamarin.Core": "18.4.0.42",
           "Syncfusion.Xamarin.SfGauge": "18.4.0.42",
+          "Syncfusion.Xamarin.SfNumericUpDown": "18.4.0.42",
           "Xamarin.Essentials": "1.5.3.2",
           "Xamarin.Forms": "4.8.0.1687",
           "ZXing.Net.Mobile": "2.4.1",
@@ -77,6 +78,18 @@
         },
         "runtime": {
           "lib/netstandard2.0/Syncfusion.SfGauge.XForms.dll": {
+            "assemblyVersion": "18.4451.0.42",
+            "fileVersion": "18.4451.0.42"
+          }
+        }
+      },
+      "Syncfusion.Xamarin.SfNumericUpDown/18.4.0.42": {
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "18.4.0.42",
+          "Xamarin.Forms": "4.8.0.1687"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.SfNumericUpDown.XForms.dll": {
             "assemblyVersion": "18.4451.0.42",
             "fileVersion": "18.4451.0.42"
           }
@@ -209,6 +222,13 @@
       "sha512": "sha512-w4MoJ8YmfpZOcnPvJJ9nzB89uftbfjZWItYpB+g0c0fWkKy6srCUuCMvZsqk94TW2g6BKTdI3tnIQqIRaTunXA==",
       "path": "syncfusion.xamarin.sfgauge/18.4.0.42",
       "hashPath": "syncfusion.xamarin.sfgauge.18.4.0.42.nupkg.sha512"
+    },
+    "Syncfusion.Xamarin.SfNumericUpDown/18.4.0.42": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aWb6Iuc4zPbEAEeWsznaHBqbeYezPaPbypNL1tlUbUIgWyPDj8q/BNh38UGYmVXnErPbkNa074RpMIxKoQhGGQ==",
+      "path": "syncfusion.xamarin.sfnumericupdown/18.4.0.42",
+      "hashPath": "syncfusion.xamarin.sfnumericupdown.18.4.0.42.nupkg.sha512"
     },
     "System.Numerics.Vectors/4.5.0": {
       "type": "package",

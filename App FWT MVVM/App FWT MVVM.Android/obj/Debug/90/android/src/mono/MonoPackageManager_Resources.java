@@ -15,6 +15,8 @@ public class MonoPackageManager_Resources {
 		"Syncfusion.SfGauge.Android.dll",
 		"Syncfusion.SfGauge.XForms.Android.dll",
 		"Syncfusion.SfGauge.XForms.dll",
+		"Syncfusion.SfNumericUpDown.XForms.Android.dll",
+		"Syncfusion.SfNumericUpDown.XForms.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Core.Runtime.dll",
 		"Xamarin.Android.Arch.Lifecycle.Common.dll",
@@ -65,4 +67,5 @@ public class MonoPackageManager_Resources {
 	};
 	public static String[] Dependencies = new String[]{
 	};
+	public static String ApiPackageName = "Mono.Android.Platform.ApiLevel_28";
 }

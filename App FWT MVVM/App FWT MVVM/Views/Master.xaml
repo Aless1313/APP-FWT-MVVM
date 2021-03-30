@@ -5,22 +5,19 @@
              xmlns:views="clr-namespace:App_FWT_MVVM.Views"
              x:Class="App_FWT_MVVM.Views.Master" FlyoutIcon="menuuw.png"> 
     
-    
     <Shell.FlyoutHeader>
         <views:HeaderContentView/>
     </Shell.FlyoutHeader>
 
-  
     <FlyoutItem Title="Master"
                 Shell.TabBarIsVisible="false"
                 FlyoutDisplayOptions="AsMultipleItems">
         <ShellContent Title="Dashboard" Icon="speedometer1.png" IsTabStop="True" ContentTemplate="{DataTemplate views:Dashboard}"/>
         <ShellContent Title="Presupuesto" Icon="hand.png" IsTabStop="True" ContentTemplate="{DataTemplate views:Presupuesto}"/>
-      
-    </FlyoutItem>
-    
-    
-    <ShellContent Title="Configuración" Icon="options.png" ContentTemplate="{DataTemplate views:Perfil}"/>
+        <ShellContent Title="Cuenta" Icon="user.png" IsTabStop="True" ContentTemplate="{DataTemplate views:Perfil}"/>
 
+    </FlyoutItem>
+
+    <ShellContent Title="Configuración" Icon="options.png" ContentTemplate="{DataTemplate views:Config}"/>
 
 </Shell>

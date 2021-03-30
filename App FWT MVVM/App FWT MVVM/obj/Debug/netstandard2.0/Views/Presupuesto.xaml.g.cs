@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("App_FWT_MVVM.Views.Presupuesto.xaml", "Views/Presupuesto.xaml", typeof(global::App_FWT_MVVM.Views.Presupuesto))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("App FWT MVVM.Views.Presupuesto.xaml", "Views/Presupuesto.xaml", typeof(global::App_FWT_MVVM.Views.Presupuesto))]
 
 namespace App_FWT_MVVM.Views {
     
@@ -17,8 +17,12 @@ namespace App_FWT_MVVM.Views {
     public partial class Presupuesto : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::Syncfusion.SfNumericUpDown.XForms.SfNumericUpDown numericUpDown;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(Presupuesto));
+            numericUpDown = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Syncfusion.SfNumericUpDown.XForms.SfNumericUpDown>(this, "numericUpDown");
         }
     }
 }

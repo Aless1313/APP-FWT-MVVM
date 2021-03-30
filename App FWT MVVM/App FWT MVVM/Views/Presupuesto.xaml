@@ -1,15 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:numeric="clr-namespace:Syncfusion.SfNumericUpDown.XForms;assembly=Syncfusion.SfNumericUpDown.XForms"
              x:Class="App_FWT_MVVM.Views.Presupuesto"
               Title="Presupuesto" BackgroundColor="#219BC4">
     
     
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Presupuesto"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <numeric:SfNumericUpDown x:Name="numericUpDown" 
+                                     AllowNull="True"
+                                     Minimum="35"
+                                     SpinButtonAlignment="Both" 
+                                     FontSize="30"
+                                     FormatString="c"
+                                     
+                                     />
+            <Label Text="Ingrese su presupuesto de gasto de agua mensual" FontSize="15" HorizontalOptions="Center" TextColor="White"/>
+
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

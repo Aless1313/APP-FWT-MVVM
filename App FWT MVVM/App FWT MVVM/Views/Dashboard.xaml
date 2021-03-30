@@ -185,7 +185,7 @@
                                             <RowDefinition Height="auto"/>
                                             <RowDefinition Height="*"/>
                                         </Grid.RowDefinitions>
-                                        <syncfusion:SfSwitch VisualType="Cupertino" Padding="0,30,0,0" Grid.Row="0" HorizontalOptions="Center" />
+                                        <syncfusion:SfSwitch VisualType="Cupertino" Padding="0,20,0,0" Grid.Row="0" HorizontalOptions="Center" />
                                         <Label Text="Cerrar Flujo" HorizontalTextAlignment="Center" FontFamily="GeosansLight" Padding="0,25,0,0" HorizontalOptions="CenterAndExpand" Grid.Row="1" FontSize="20" FontAttributes="Bold" TextColor="White"/>
                                     </Grid>
                                 </StackLayout>

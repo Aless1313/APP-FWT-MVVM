@@ -114,7 +114,7 @@ namespace App_FWT_MVVM.ViewModels
             {
                 
 
-                Device.BeginInvokeOnMainThread(() => App.Current.MainPage = new NavigationPage(new Dashboard()));
+                Device.BeginInvokeOnMainThread(() => App.Current.MainPage = new NavigationPage(new Dashboard())); //AQUI VA EL MASTER DETAIL PAGE
 
                 //await App.Current.MainPage.Navigation.PushAsync(new Dashboard());
                 Data = result[0];
