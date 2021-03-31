@@ -13,10 +13,11 @@ namespace App_FWT_MVVM.Views
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 public partial class Graficas : ContentPage
 {
-    public Graficas()
+
+        public Graficas()
     {
         InitializeComponent();
-    }
+        }
 
 }
 }

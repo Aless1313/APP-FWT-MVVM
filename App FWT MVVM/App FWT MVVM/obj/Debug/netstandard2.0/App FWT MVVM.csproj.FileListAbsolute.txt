@@ -111,3 +111,4 @@ C:\Users\andre\Desktop\PROYECTO FWT\APP_FWT_MVVM\APP-FWT-MVVM\App FWT MVVM\App F
 C:\Users\andre\Desktop\PROYECTO FWT\APP_FWT_MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM\obj\Debug\netstandard2.0\ref\App FWT MVVM.dll
 C:\Users\andre\Desktop\PROYECTO FWT\APP_FWT_MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM\obj\Debug\netstandard2.0\App FWT MVVM.pdb
 C:\Users\andre\Desktop\PROYECTO FWT\APP_FWT_MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM\obj\Debug\netstandard2.0\Views\Graficas.xaml.g.cs
+C:\Users\andre\Desktop\PROYECTO FWT\APP_FWT_MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM\obj\Debug\netstandard2.0\XamlC.stamp

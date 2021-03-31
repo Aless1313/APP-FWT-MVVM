@@ -5,33 +5,20 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:combobox="clr-namespace:Syncfusion.XForms.ComboBox;assembly=Syncfusion.SfComboBox.XForms"
              xmlns:ListCollection="clr-namespace:System.Collections.Generic;assembly=netstandard"
-             xmlns:chart="clr-namespace:Syncfusion.SfChart.XForms;assembly=Syncfusion.SfChart.XForms"
+             xmlns:chart="clr-namespace:Syncfusion.SfChart.XForms;assembly=Syncfusion.SfChart.XForms" 
+             xmlns:local="clr-namespace:App_FWT_MVVM.ViewModels"
              mc:Ignorable="d"
              x:Class="App_FWT_MVVM.Views.Graficas"
              Title="Gráficas">
-    <Grid Padding="0,30,0,0" ColumnSpacing="30">
+
+    <!-- <Grid Padding="0,30,0,0" ColumnSpacing="30">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
         
-        <combobox:SfComboBox x:Name="comboBox" Grid.Column="0" VerticalOptions="Start" HorizontalOptions="End" IsEditableMode="False" HeightRequest="40" WidthRequest="150" SelectedItem="Marzo" TextSize="15">
-            <combobox:SfComboBox.ComboBoxSource>
-                <ListCollection:List x:TypeArguments="x:String">
-                    <x:String>Enero</x:String>
-                    <x:String>Febrero</x:String>
-                    <x:String>Marzo</x:String>
-                    <x:String>Abril</x:String>
-                    <x:String>Mayo</x:String>
-                    <x:String>Junio</x:String>
-                    <x:String>Julio</x:String>
-                    <x:String>Agosto</x:String>
-                    <x:String>Septiembre</x:String>
-                    <x:String>Octubre</x:String>
-                    <x:String>Noviembre</x:String>
-                    <x:String>Diciembre</x:String>
-                </ListCollection:List>
-            </combobox:SfComboBox.ComboBoxSource>
+        <combobox:SfComboBox x:Name="comboBox" Grid.Column="0" VerticalOptions="Start" DataSource="{Binding Months}" HorizontalOptions="End" IsEditableMode="False" HeightRequest="40" WidthRequest="150" TextSize="15">
+            
         </combobox:SfComboBox>
 
         <combobox:SfComboBox x:Name="comboBoxYear" Grid.Column="1" VerticalOptions="Start" HorizontalOptions="Start" IsEditableMode="False" HeightRequest="40" WidthRequest="150" SelectedItem="2021" Text="15">
@@ -42,11 +29,68 @@
                 </ListCollection:List>
             </combobox:SfComboBox.ComboBoxSource>
         </combobox:SfComboBox>
-        <StackLayout>
-            <chart:SfChart Title="AGUA UTILIZADAD" IsEnabled="False">
-                <chart:ColumnSeries ItemsSource="{Binding Data}" XBindingPath="Meses" YBindingPath="m³"/>
-            </chart:SfChart>
-        </StackLayout>
-    </Grid>
+    -->
+
+    <!--GRAFICA-->
+    <StackLayout>
+        <chart:SfChart x:Name="Chart" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+            <chart:SfChart.Margin>
+                <OnPlatform x:TypeArguments="Thickness" WinPhone="0,0,15,0" />
+            </chart:SfChart.Margin>
+            <chart:SfChart.Title>
+                <chart:ChartTitle Text="AGUA UTILIZADA" />
+            </chart:SfChart.Title>
+            <chart:SfChart.BindingContext>
+                <local:GraficaViewModel />
+            </chart:SfChart.BindingContext>
+            <chart:SfChart.PrimaryAxis>
+                <chart:DateTimeAxis PlotOffset="6" 
+                                    LabelRotationAngle="-45"
+                                    ShowMajorGridLines = "false" ShowMinorGridLines ="false">
+                    <chart:DateTimeAxis.LabelStyle>
+                        <chart:ChartAxisLabelStyle LabelFormat="MMM dd" />
+                    </chart:DateTimeAxis.LabelStyle>
+                </chart:DateTimeAxis>
+            </chart:SfChart.PrimaryAxis>
+            <chart:SfChart.SecondaryAxis>
+                <chart:NumericalAxis Maximum="50" Interval="5" >
+                    <chart:NumericalAxis.AxisLineStyle>
+                        <chart:ChartLineStyle StrokeWidth="0">
+                        </chart:ChartLineStyle>
+                    </chart:NumericalAxis.AxisLineStyle>
+                    <chart:NumericalAxis.MajorTickStyle>
+                        <chart:ChartAxisTickStyle TickSize="0" />
+                    </chart:NumericalAxis.MajorTickStyle>
+                    <chart:NumericalAxis.LabelStyle>
+                        <chart:ChartAxisLabelStyle x:Name="secondaryAxisLabelStyle" />
+                    </chart:NumericalAxis.LabelStyle>
+                </chart:NumericalAxis>
+            </chart:SfChart.SecondaryAxis>
+
+            <chart:SfChart.Series>
+                <chart:SplineAreaSeries ItemsSource="{Binding MonthsData}" XBindingPath="Date" YBindingPath="High" StrokeColor="#FF0080DF" StrokeWidth="2">
+                    <chart:SplineAreaSeries.DataMarker>
+                        <chart:ChartDataMarker MarkerWidth="8" MarkerHeight="8" MarkerColor="White" MarkerBorderColor="#FF0080DF" MarkerBorderWidth="2" ShowMarker="true" ShowLabel="true" >
+                            <chart:ChartDataMarker.LabelStyle>
+                                <chart:DataMarkerLabelStyle OffsetY="-10" BackgroundColor="#FF0080DF" LabelFormat="#.#'%'"/>
+                            </chart:ChartDataMarker.LabelStyle>
+                        </chart:ChartDataMarker>
+                    </chart:SplineAreaSeries.DataMarker>
+                    <chart:SplineAreaSeries.ColorModel>
+                        <chart:ChartColorModel Palette="Custom">
+                            <chart:ChartColorModel.CustomGradientColors>
+                                <chart:ChartGradientColor StartPoint="0.5,1" EndPoint="0.5,0">
+                                    <chart:ChartGradientColor.GradientStops>
+                                        <chart:ChartGradientStop Color="White" Offset= "0"/>
+                                        <chart:ChartGradientStop Color="#FF0080DF" Offset= "1"/>
+                                    </chart:ChartGradientColor.GradientStops>
+                                </chart:ChartGradientColor>
+                            </chart:ChartColorModel.CustomGradientColors>
+                        </chart:ChartColorModel>
+                    </chart:SplineAreaSeries.ColorModel>
+                </chart:SplineAreaSeries>
+            </chart:SfChart.Series>
+        </chart:SfChart>
+    </StackLayout>
     
 </ContentPage>

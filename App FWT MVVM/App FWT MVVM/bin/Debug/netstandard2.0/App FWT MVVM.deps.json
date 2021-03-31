@@ -13,6 +13,7 @@
           "Newtonsoft.Json": "12.0.3",
           "Syncfusion.Xamarin.Buttons": "18.4.0.42",
           "Syncfusion.Xamarin.Core": "18.4.0.42",
+          "Syncfusion.Xamarin.SfChart": "18.4.0.42",
           "Syncfusion.Xamarin.SfComboBox": "18.4.0.42",
           "Syncfusion.Xamarin.SfGauge": "18.4.0.42",
           "Syncfusion.Xamarin.SfImageEditor": "18.4.0.42",
@@ -68,6 +69,18 @@
         },
         "runtime": {
           "lib/netstandard2.0/Syncfusion.Core.XForms.dll": {
+            "assemblyVersion": "18.4451.0.42",
+            "fileVersion": "18.4451.0.42"
+          }
+        }
+      },
+      "Syncfusion.Xamarin.SfChart/18.4.0.42": {
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "18.4.0.42",
+          "Xamarin.Forms": "4.8.0.1687"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.SfChart.XForms.dll": {
             "assemblyVersion": "18.4451.0.42",
             "fileVersion": "18.4451.0.42"
           }
@@ -241,6 +254,13 @@
       "sha512": "sha512-+hYZzp/NPH1l020tNMLHa/+CW5lY8deKw+XKs1FMTY+6H8wEkC50Sv1GUCqtsedTwM1GLUm6Y2tjpxWVLI3vXg==",
       "path": "syncfusion.xamarin.core/18.4.0.42",
       "hashPath": "syncfusion.xamarin.core.18.4.0.42.nupkg.sha512"
+    },
+    "Syncfusion.Xamarin.SfChart/18.4.0.42": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DVU+jRq9LP1YstlATfJmADIC9aaHt0nHWuPDN2HP8AFC/a3ByylwFHOtQCrbVPdCfedt+GItf3EjwcZ1x86+qA==",
+      "path": "syncfusion.xamarin.sfchart/18.4.0.42",
+      "hashPath": "syncfusion.xamarin.sfchart.18.4.0.42.nupkg.sha512"
     },
     "Syncfusion.Xamarin.SfComboBox/18.4.0.42": {
       "type": "package",
