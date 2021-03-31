@@ -1,30 +1,89 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:gradient ="clr-namespace:Syncfusion.XForms.Graphics;assembly=Syncfusion.Core.XForms"
              xmlns:numeric="clr-namespace:Syncfusion.SfNumericUpDown.XForms;assembly=Syncfusion.SfNumericUpDown.XForms"
+             xmlns:border="clr-namespace:Syncfusion.XForms.Border;assembly=Syncfusion.Core.XForms"
+             xmlns:syncfusion="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
              x:Class="App_FWT_MVVM.Views.Presupuesto"
-              Title="Presupuesto" BackgroundColor="#219BC4">
+             Title="Presupuesto" 
+             BackgroundColor="#219BC4">
     
     
     <ContentPage.Content>
-        <StackLayout HeightRequest="150">
-            <numeric:SfNumericUpDown x:Name="numericUpDown" 
+        <Grid>
+            <gradient:SfGradientView>
+                <gradient:SfGradientView.BackgroundBrush>
+                    <gradient:SfLinearGradientBrush>
+                        <gradient:SfLinearGradientBrush.GradientStops>
+                            <gradient:SfGradientStop Color="#219BC4" Offset="0.0" />
+                            <gradient:SfGradientStop Color="#338CFF" Offset="1.0" />
+                        </gradient:SfLinearGradientBrush.GradientStops>
+                    </gradient:SfLinearGradientBrush>
+                </gradient:SfGradientView.BackgroundBrush>
+            </gradient:SfGradientView>
+            <AbsoluteLayout>
+                <Label Text="" x:Name="MesShow"
+                   FontSize="30"
+                   AbsoluteLayout.LayoutBounds=".5,100"
+                   AbsoluteLayout.LayoutFlags="XProportional"
+                   TextColor="White"/>
+            </AbsoluteLayout>
+            <AbsoluteLayout>
+                <border:SfBorder BorderWidth="3"
+                                 IsVisible="False"
+                                 x:Name="Borde"
+                             CornerRadius="20"
+                             BackgroundColor="White"
+                             HasShadow="False"
+                             Margin="5,15"
+                             AbsoluteLayout.LayoutBounds=".5,450"
+                             AbsoluteLayout.LayoutFlags="XProportional"
+                             WidthRequest="300"
+                             HeightRequest="150"
+                             BorderColor="White"
+                             >
+                    <StackLayout Spacing="50"
+                                 Padding="10,20">
+                <Label Text="Este mes ya tiene presupuesto asignado"
+                       x:Name="MesAsignado"
+                       IsVisible="False"
+                       FontSize="15"
+                       TextColor="Red"
+                       />
+
+                <syncfusion:SfButton Text="Editar" TextColor="Black"
+                        IsVisible="False" VerticalOptions="End"
+                        x:Name="Editar"
+                        Clicked="Editar_Clicked"
+                        BackgroundColor="LightGray"
+                        CornerRadius="20"/>
+                    </StackLayout>
+                </border:SfBorder>
+            </AbsoluteLayout>
+
+            <StackLayout VerticalOptions="Center" Padding="20,0">
+                <numeric:SfNumericUpDown x:Name="numericUpDown" 
                                      AllowNull="False"
                                      Minimum="35"
                                      SpinButtonAlignment="Both" 
-                                     FontSize="30"
+                                     FontSize="50"
                                      FormatString="c"
-                                     AutoReverse="true"
                                      StepValue="5"
-                                     HeightRequest="100"
+                                     HeightRequest="80"
                                      TextAlignment="Center"
                                      IsEditable="False"
-                                     />
+                                     FontAttribute="Bold"
+                                     TextColor="White"
+                                     UpDownButtonColor="White"/>
+           
 
-
-            <Label Text="Ingrese su presupuesto de gasto de agua mensual" FontSize="15" HorizontalOptions="Center" TextColor="White"/>
-
-
-        </StackLayout>
+            <Label Text="Pago mensual deseado" FontSize="15" HorizontalOptions="Center" TextColor="White"/>
+               
+            </StackLayout>
+            <StackLayout VerticalOptions="End" Padding="20,0,20,20">
+                <Button Text="Aceptar" x:Name="ValorMes" Clicked="ValorMes_Clicked" BackgroundColor="#2FDC40" TextColor="White" FontSize="20" CornerRadius="20" />
+            </StackLayout>
+        </Grid>
     </ContentPage.Content>
 </ContentPage>

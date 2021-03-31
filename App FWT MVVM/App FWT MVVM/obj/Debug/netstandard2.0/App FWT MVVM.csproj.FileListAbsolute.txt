@@ -87,8 +87,16 @@ E:\APP BETA FWT\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM\bin\Debug\netstandard2.0\
 E:\APP BETA FWT\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM\bin\Debug\netstandard2.0\Mono.Android.xml
 E:\APP BETA FWT\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM\obj\Debug\netstandard2.0\XamlC.stamp
 E:\APP BETA FWT\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM\obj\Debug\netstandard2.0\App FWT MVVM.csproj.CopyComplete
+C:\Users\andre\Desktop\PROYECTO FWT\APP_FWT_MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM\bin\Debug\netstandard2.0\App FWT MVVM.deps.json
+C:\Users\andre\Desktop\PROYECTO FWT\APP_FWT_MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM\bin\Debug\netstandard2.0\App FWT MVVM.dll
+C:\Users\andre\Desktop\PROYECTO FWT\APP_FWT_MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM\bin\Debug\netstandard2.0\ref\App FWT MVVM.dll
+C:\Users\andre\Desktop\PROYECTO FWT\APP_FWT_MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM\bin\Debug\netstandard2.0\App FWT MVVM.pdb
+C:\Users\andre\Desktop\PROYECTO FWT\APP_FWT_MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM\bin\Debug\netstandard2.0\Mono.Android.dll
+C:\Users\andre\Desktop\PROYECTO FWT\APP_FWT_MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM\bin\Debug\netstandard2.0\Mono.Android.pdb
+C:\Users\andre\Desktop\PROYECTO FWT\APP_FWT_MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM\bin\Debug\netstandard2.0\Mono.Android.xml
 C:\Users\andre\Desktop\PROYECTO FWT\APP_FWT_MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM\obj\Debug\netstandard2.0\App FWT MVVM.csprojAssemblyReference.cache
 C:\Users\andre\Desktop\PROYECTO FWT\APP_FWT_MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\andre\Desktop\PROYECTO FWT\APP_FWT_MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM\obj\Debug\netstandard2.0\Views\Config.xaml.g.cs
 C:\Users\andre\Desktop\PROYECTO FWT\APP_FWT_MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM\obj\Debug\netstandard2.0\Views\Dashboard.xaml.g.cs
 C:\Users\andre\Desktop\PROYECTO FWT\APP_FWT_MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM\obj\Debug\netstandard2.0\Views\HeaderContentView.xaml.g.cs
 C:\Users\andre\Desktop\PROYECTO FWT\APP_FWT_MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM\obj\Debug\netstandard2.0\Views\Login.xaml.g.cs
@@ -98,16 +106,8 @@ C:\Users\andre\Desktop\PROYECTO FWT\APP_FWT_MVVM\APP-FWT-MVVM\App FWT MVVM\App F
 C:\Users\andre\Desktop\PROYECTO FWT\APP_FWT_MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM\obj\Debug\netstandard2.0\Views\Register.xaml.g.cs
 C:\Users\andre\Desktop\PROYECTO FWT\APP_FWT_MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM\obj\Debug\netstandard2.0\App FWT MVVM.AssemblyInfoInputs.cache
 C:\Users\andre\Desktop\PROYECTO FWT\APP_FWT_MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM\obj\Debug\netstandard2.0\App FWT MVVM.AssemblyInfo.cs
+C:\Users\andre\Desktop\PROYECTO FWT\APP_FWT_MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM\obj\Debug\netstandard2.0\App FWT MVVM.csproj.CopyComplete
 C:\Users\andre\Desktop\PROYECTO FWT\APP_FWT_MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM\obj\Debug\netstandard2.0\App FWT MVVM.dll
 C:\Users\andre\Desktop\PROYECTO FWT\APP_FWT_MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM\obj\Debug\netstandard2.0\ref\App FWT MVVM.dll
 C:\Users\andre\Desktop\PROYECTO FWT\APP_FWT_MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM\obj\Debug\netstandard2.0\App FWT MVVM.pdb
-C:\Users\andre\Desktop\PROYECTO FWT\APP_FWT_MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM\bin\Debug\netstandard2.0\App FWT MVVM.deps.json
-C:\Users\andre\Desktop\PROYECTO FWT\APP_FWT_MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM\bin\Debug\netstandard2.0\App FWT MVVM.dll
-C:\Users\andre\Desktop\PROYECTO FWT\APP_FWT_MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM\bin\Debug\netstandard2.0\ref\App FWT MVVM.dll
-C:\Users\andre\Desktop\PROYECTO FWT\APP_FWT_MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM\bin\Debug\netstandard2.0\App FWT MVVM.pdb
-C:\Users\andre\Desktop\PROYECTO FWT\APP_FWT_MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM\bin\Debug\netstandard2.0\Mono.Android.dll
-C:\Users\andre\Desktop\PROYECTO FWT\APP_FWT_MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM\bin\Debug\netstandard2.0\Mono.Android.pdb
-C:\Users\andre\Desktop\PROYECTO FWT\APP_FWT_MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM\bin\Debug\netstandard2.0\Mono.Android.xml
-C:\Users\andre\Desktop\PROYECTO FWT\APP_FWT_MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM\obj\Debug\netstandard2.0\Views\Config.xaml.g.cs
-C:\Users\andre\Desktop\PROYECTO FWT\APP_FWT_MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM\obj\Debug\netstandard2.0\App FWT MVVM.csproj.CopyComplete
-C:\Users\andre\Desktop\PROYECTO FWT\APP_FWT_MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\andre\Desktop\PROYECTO FWT\APP_FWT_MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM\obj\Debug\netstandard2.0\Views\Graficas.xaml.g.cs

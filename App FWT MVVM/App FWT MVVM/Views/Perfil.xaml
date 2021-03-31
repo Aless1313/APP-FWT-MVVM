@@ -2,7 +2,8 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:gradient ="clr-namespace:Syncfusion.XForms.Graphics;assembly=Syncfusion.Core.XForms"
-             x:Class="App_FWT_MVVM.Views.Perfil">
+             x:Class="App_FWT_MVVM.Views.Perfil"
+             Title="Perfil">
     <ContentPage.Content>
         <AbsoluteLayout>
             <gradient:SfGradientView>
@@ -18,12 +19,22 @@
             <BoxView BackgroundColor="DeepSkyBlue" AbsoluteLayout.LayoutBounds=".51, 27, 130, 130"
                      AbsoluteLayout.LayoutFlags="XProportional"
                      CornerRadius="57,0,0,57"></BoxView>
-            <Image Source="imagenxd.jpg" Aspect="AspectFit" AbsoluteLayout.LayoutBounds=".5,45,100,100"
+            <Image x:Name="imageView" Aspect="AspectFit" AbsoluteLayout.LayoutBounds=".5,45,100,100"
                    AbsoluteLayout.LayoutFlags="XProportional"></Image>
+            
+            <Button x:Name="TakePhoto" Text="Cambiar imagen"
+                    FontSize="8"
+                    BackgroundColor="#0779AB"
+                    TextColor="White"
+                    AbsoluteLayout.LayoutBounds=".5,160"
+                    AbsoluteLayout.LayoutFlags="XProportional"
+                    CornerRadius="5"
+                    HeightRequest="30"/>
+           
             <Label Text="Usuario" 
                    FontSize="30" 
                    TextColor="Black" 
-                   AbsoluteLayout.LayoutBounds=".5,170" 
+                   AbsoluteLayout.LayoutBounds=".5,200" 
                    AbsoluteLayout.LayoutFlags="XProportional"></Label>
             <Label Text="Correo"
                    FontSize="15"
@@ -31,7 +42,7 @@
                    AbsoluteLayout.LayoutBounds="10,.4"
                    AbsoluteLayout.LayoutFlags="YProportional"></Label>
             <Label Text="andresdeblas@hotmail.com"
-                   FontSize="20"
+                   FontSize="18"
                    TextColor="White"
                    AbsoluteLayout.LayoutBounds="10,.43"
                    AbsoluteLayout.LayoutFlags="YProportional"></Label>

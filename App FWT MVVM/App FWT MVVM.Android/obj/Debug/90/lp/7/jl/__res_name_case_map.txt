@@ -1,3 +1,5 @@
-values/Strings.xml;values/strings.xml
-drawable/DownButton.png;drawable/downbutton.png
-drawable/UpButton.png;drawable/upbutton.png
+Values/Strings.xml;values/strings.xml
+Layout/circulargauge_layout.xml;layout/circulargauge_layout.xml
+Layout/digitalgauge_layout.xml;layout/digitalgauge_layout.xml
+Values/dimens.xml;values/dimens.xml
+Values/attrs.xml;values/attrs.xml

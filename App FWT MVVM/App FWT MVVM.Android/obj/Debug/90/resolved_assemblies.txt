@@ -12,9 +12,15 @@ C:\Users\andre\Desktop\PROYECTO FWT\APP_FWT_MVVM\APP-FWT-MVVM\App FWT MVVM\App F
 C:\Users\andre\Desktop\PROYECTO FWT\APP_FWT_MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\android\assets\Syncfusion.Core.XForms.Android.dll
 C:\Users\andre\Desktop\PROYECTO FWT\APP_FWT_MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\android\assets\Syncfusion.Core.XForms.dll
 C:\Users\andre\Desktop\PROYECTO FWT\APP_FWT_MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\android\assets\Syncfusion.Licensing.dll
+C:\Users\andre\Desktop\PROYECTO FWT\APP_FWT_MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\android\assets\Syncfusion.SfChart.XForms.Android.dll
+C:\Users\andre\Desktop\PROYECTO FWT\APP_FWT_MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\android\assets\Syncfusion.SfChart.XForms.dll
+C:\Users\andre\Desktop\PROYECTO FWT\APP_FWT_MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\android\assets\Syncfusion.SfComboBox.XForms.Android.dll
+C:\Users\andre\Desktop\PROYECTO FWT\APP_FWT_MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\android\assets\Syncfusion.SfComboBox.XForms.dll
 C:\Users\andre\Desktop\PROYECTO FWT\APP_FWT_MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\android\assets\Syncfusion.SfGauge.Android.dll
 C:\Users\andre\Desktop\PROYECTO FWT\APP_FWT_MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\android\assets\Syncfusion.SfGauge.XForms.Android.dll
 C:\Users\andre\Desktop\PROYECTO FWT\APP_FWT_MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\android\assets\Syncfusion.SfGauge.XForms.dll
+C:\Users\andre\Desktop\PROYECTO FWT\APP_FWT_MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\android\assets\Syncfusion.SfImageEditor.XForms.Android.dll
+C:\Users\andre\Desktop\PROYECTO FWT\APP_FWT_MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\android\assets\Syncfusion.SfImageEditor.XForms.dll
 C:\Users\andre\Desktop\PROYECTO FWT\APP_FWT_MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\android\assets\Syncfusion.SfNumericUpDown.XForms.Android.dll
 C:\Users\andre\Desktop\PROYECTO FWT\APP_FWT_MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\android\assets\Syncfusion.SfNumericUpDown.XForms.dll
 C:\Users\andre\Desktop\PROYECTO FWT\APP_FWT_MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\android\assets\System.Core.dll
@@ -90,6 +96,7 @@ C:\Users\andre\Desktop\PROYECTO FWT\APP_FWT_MVVM\APP-FWT-MVVM\App FWT MVVM\App F
 C:\Users\andre\Desktop\PROYECTO FWT\APP_FWT_MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\android\assets\System.Linq.dll
 C:\Users\andre\Desktop\PROYECTO FWT\APP_FWT_MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\android\assets\System.Reflection.Extensions.dll
 C:\Users\andre\Desktop\PROYECTO FWT\APP_FWT_MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\android\assets\System.Text.Encoding.dll
+C:\Users\andre\Desktop\PROYECTO FWT\APP_FWT_MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\android\assets\System.Json.dll
 C:\Users\andre\Desktop\PROYECTO FWT\APP_FWT_MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\android\assets\Mono.Security.dll
 C:\Users\andre\Desktop\PROYECTO FWT\APP_FWT_MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\android\assets\System.Threading.Tasks.dll
 C:\Users\andre\Desktop\PROYECTO FWT\APP_FWT_MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM.Android\obj\Debug\90\android\assets\System.Diagnostics.Debug.dll

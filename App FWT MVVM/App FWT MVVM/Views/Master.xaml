@@ -15,7 +15,7 @@
         <ShellContent Title="Dashboard" Icon="speedometer1.png" IsTabStop="True" ContentTemplate="{DataTemplate views:Dashboard}"/>
         <ShellContent Title="Presupuesto" Icon="hand.png" IsTabStop="True" ContentTemplate="{DataTemplate views:Presupuesto}"/>
         <ShellContent Title="Cuenta" Icon="user.png" IsTabStop="True" ContentTemplate="{DataTemplate views:Perfil}"/>
-
+        <ShellContent Title="Graficas" Icon="grafica.png" IsTabStop="False" ContentTemplate="{DataTemplate views:Graficas}"/>
     </FlyoutItem>
 
     <ShellContent Title="Configuración" Icon="options.png" ContentTemplate="{DataTemplate views:Config}"/>

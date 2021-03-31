@@ -15,7 +15,7 @@ namespace App_FWT_MVVM.Views
         public Dashboard()
         {
             InitializeComponent();
-            pointer.Value = 1;
+            pointer.Value = 0;
             //Navigation.PushModalAsync(new Login());
         }
     }

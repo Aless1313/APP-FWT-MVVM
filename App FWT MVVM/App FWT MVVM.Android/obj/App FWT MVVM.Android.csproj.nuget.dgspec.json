@@ -54,7 +54,19 @@
               "target": "Package",
               "version": "[18.4.0.42, )"
             },
+            "Syncfusion.Xamarin.SfChart": {
+              "target": "Package",
+              "version": "[18.4.0.42, )"
+            },
+            "Syncfusion.Xamarin.SfComboBox": {
+              "target": "Package",
+              "version": "[18.4.0.42, )"
+            },
             "Syncfusion.Xamarin.SfGauge": {
+              "target": "Package",
+              "version": "[18.4.0.42, )"
+            },
+            "Syncfusion.Xamarin.SfImageEditor": {
               "target": "Package",
               "version": "[18.4.0.42, )"
             },
@@ -139,7 +151,19 @@
               "target": "Package",
               "version": "[18.4.0.42, )"
             },
+            "Syncfusion.Xamarin.SfChart": {
+              "target": "Package",
+              "version": "[18.4.0.42, )"
+            },
+            "Syncfusion.Xamarin.SfComboBox": {
+              "target": "Package",
+              "version": "[18.4.0.42, )"
+            },
             "Syncfusion.Xamarin.SfGauge": {
+              "target": "Package",
+              "version": "[18.4.0.42, )"
+            },
+            "Syncfusion.Xamarin.SfImageEditor": {
               "target": "Package",
               "version": "[18.4.0.42, )"
             },

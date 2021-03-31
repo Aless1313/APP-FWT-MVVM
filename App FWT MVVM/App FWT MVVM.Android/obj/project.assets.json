@@ -83,6 +83,36 @@
           "lib/MonoAndroid90/Syncfusion.Core.XForms.dll": {}
         }
       },
+      "Syncfusion.Xamarin.SfChart/18.4.0.42": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "18.4.0.42",
+          "Xamarin.Forms": "4.5.0.617"
+        },
+        "compile": {
+          "lib/MonoAndroid90/Syncfusion.SfChart.XForms.Android.dll": {},
+          "lib/MonoAndroid90/Syncfusion.SfChart.XForms.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid90/Syncfusion.SfChart.XForms.Android.dll": {},
+          "lib/MonoAndroid90/Syncfusion.SfChart.XForms.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.SfComboBox/18.4.0.42": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "18.4.0.42",
+          "Xamarin.Forms": "4.5.0.617"
+        },
+        "compile": {
+          "lib/MonoAndroid90/Syncfusion.SfComboBox.XForms.Android.dll": {},
+          "lib/MonoAndroid90/Syncfusion.SfComboBox.XForms.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid90/Syncfusion.SfComboBox.XForms.Android.dll": {},
+          "lib/MonoAndroid90/Syncfusion.SfComboBox.XForms.dll": {}
+        }
+      },
       "Syncfusion.Xamarin.SfGauge/18.4.0.42": {
         "type": "package",
         "dependencies": {
@@ -98,6 +128,21 @@
           "lib/MonoAndroid90/Syncfusion.SfGauge.Android.dll": {},
           "lib/MonoAndroid90/Syncfusion.SfGauge.XForms.Android.dll": {},
           "lib/MonoAndroid90/Syncfusion.SfGauge.XForms.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.SfImageEditor/18.4.0.42": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "18.4.0.42",
+          "Xamarin.Forms": "4.5.0.617"
+        },
+        "compile": {
+          "lib/MonoAndroid90/Syncfusion.SfImageEditor.XForms.Android.dll": {},
+          "lib/MonoAndroid90/Syncfusion.SfImageEditor.XForms.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid90/Syncfusion.SfImageEditor.XForms.Android.dll": {},
+          "lib/MonoAndroid90/Syncfusion.SfImageEditor.XForms.dll": {}
         }
       },
       "Syncfusion.Xamarin.SfNumericUpDown/18.4.0.42": {
@@ -949,7 +994,10 @@
           "Newtonsoft.Json": "12.0.3",
           "Syncfusion.Xamarin.Buttons": "18.4.0.42",
           "Syncfusion.Xamarin.Core": "18.4.0.42",
+          "Syncfusion.Xamarin.SfChart": "18.4.0.42",
+          "Syncfusion.Xamarin.SfComboBox": "18.4.0.42",
           "Syncfusion.Xamarin.SfGauge": "18.4.0.42",
+          "Syncfusion.Xamarin.SfImageEditor": "18.4.0.42",
           "Syncfusion.Xamarin.SfNumericUpDown": "18.4.0.42",
           "Xamarin.Essentials": "1.5.3.2",
           "Xamarin.Forms": "4.8.0.1687",
@@ -1255,6 +1303,70 @@
         "syncfusion.xamarin.core.nuspec"
       ]
     },
+    "Syncfusion.Xamarin.SfChart/18.4.0.42": {
+      "sha512": "DVU+jRq9LP1YstlATfJmADIC9aaHt0nHWuPDN2HP8AFC/a3ByylwFHOtQCrbVPdCfedt+GItf3EjwcZ1x86+qA==",
+      "type": "package",
+      "path": "syncfusion.xamarin.sfchart/18.4.0.42",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10.0/Syncfusion.SfChart.XForms.Android.dll",
+        "lib/MonoAndroid10.0/Syncfusion.SfChart.XForms.dll",
+        "lib/MonoAndroid10.0/Syncfusion.SfChart.XForms.xml",
+        "lib/MonoAndroid90/Syncfusion.SfChart.XForms.Android.dll",
+        "lib/MonoAndroid90/Syncfusion.SfChart.XForms.dll",
+        "lib/MonoAndroid90/Syncfusion.SfChart.XForms.xml",
+        "lib/Xamarin.Mac/Syncfusion.SfChart.XForms.dll",
+        "lib/Xamarin.Mac/Syncfusion.SfChart.XForms.macOS.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfChart.XForms.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfChart.XForms.iOS.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfChart.XForms.xml",
+        "lib/netstandard2.0/Syncfusion.SfChart.XForms.dll",
+        "lib/netstandard2.0/Syncfusion.SfChart.XForms.xml",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.SfChart.XForms.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.SfChart.XForms.xml",
+        "lib/uap10.0/Syncfusion.SfChart.XForms.UWP.XML",
+        "lib/uap10.0/Syncfusion.SfChart.XForms.UWP.dll",
+        "lib/uap10.0/Syncfusion.SfChart.XForms.dll",
+        "lib/uap10.0/Syncfusion.SfChart.XForms.xml",
+        "syncfusion.xamarin.sfchart.18.4.0.42.nupkg.sha512",
+        "syncfusion.xamarin.sfchart.nuspec"
+      ]
+    },
+    "Syncfusion.Xamarin.SfComboBox/18.4.0.42": {
+      "sha512": "jSMsyaEJudcxEOG9QjUbwEOm8K4ZCIKG3ZRYUO59v1C8uoCh357J4ixRPMKCbg45h2m68D+5mKIxJp0o9xsDag==",
+      "type": "package",
+      "path": "syncfusion.xamarin.sfcombobox/18.4.0.42",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10.0/Syncfusion.SfComboBox.XForms.Android.dll",
+        "lib/MonoAndroid10.0/Syncfusion.SfComboBox.XForms.XML",
+        "lib/MonoAndroid10.0/Syncfusion.SfComboBox.XForms.dll",
+        "lib/MonoAndroid90/Syncfusion.SfComboBox.XForms.Android.dll",
+        "lib/MonoAndroid90/Syncfusion.SfComboBox.XForms.XML",
+        "lib/MonoAndroid90/Syncfusion.SfComboBox.XForms.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfComboBox.XForms.XML",
+        "lib/Xamarin.iOS10/Syncfusion.SfComboBox.XForms.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfComboBox.XForms.iOS.dll",
+        "lib/netstandard2.0/Syncfusion.SfComboBox.XForms.XML",
+        "lib/netstandard2.0/Syncfusion.SfComboBox.XForms.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.SfComboBox.XForms.XML",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.SfComboBox.XForms.dll",
+        "lib/uap10.0/Syncfusion.SfComboBox.XForms.UWP.XML",
+        "lib/uap10.0/Syncfusion.SfComboBox.XForms.UWP.dll",
+        "lib/uap10.0/Syncfusion.SfComboBox.XForms.UWP.pri",
+        "lib/uap10.0/Syncfusion.SfComboBox.XForms.UWP/Properties/Syncfusion.SfComboBox.XForms.UWP.rd.xml",
+        "lib/uap10.0/Syncfusion.SfComboBox.XForms.UWP/Syncfusion.SfComboBox.XForms.UWP.xr.xml",
+        "lib/uap10.0/Syncfusion.SfComboBox.XForms.UWP/Themes/Generic.xaml",
+        "lib/uap10.0/Syncfusion.SfComboBox.XForms.UWP/darkthemeimage.png",
+        "lib/uap10.0/Syncfusion.SfComboBox.XForms.UWP/dropdownbuttonimage.png",
+        "lib/uap10.0/Syncfusion.SfComboBox.XForms.XML",
+        "lib/uap10.0/Syncfusion.SfComboBox.XForms.dll",
+        "syncfusion.xamarin.sfcombobox.18.4.0.42.nupkg.sha512",
+        "syncfusion.xamarin.sfcombobox.nuspec"
+      ]
+    },
     "Syncfusion.Xamarin.SfGauge/18.4.0.42": {
       "sha512": "w4MoJ8YmfpZOcnPvJJ9nzB89uftbfjZWItYpB+g0c0fWkKy6srCUuCMvZsqk94TW2g6BKTdI3tnIQqIRaTunXA==",
       "type": "package",
@@ -1287,6 +1399,34 @@
         "lib/uap10.0/Syncfusion.SfGauge.XForms.xml",
         "syncfusion.xamarin.sfgauge.18.4.0.42.nupkg.sha512",
         "syncfusion.xamarin.sfgauge.nuspec"
+      ]
+    },
+    "Syncfusion.Xamarin.SfImageEditor/18.4.0.42": {
+      "sha512": "6cL1Xng8cI5T8uO/6kelKRhUAxcDkV4Dn/JvSyfBAkQBnBzbRsjFaZh9AHFHzmrLLpNHG3vUHy/nWkW62NNang==",
+      "type": "package",
+      "path": "syncfusion.xamarin.sfimageeditor/18.4.0.42",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10.0/Syncfusion.SfImageEditor.XForms.Android.dll",
+        "lib/MonoAndroid10.0/Syncfusion.SfImageEditor.XForms.dll",
+        "lib/MonoAndroid10.0/Syncfusion.SfImageEditor.XForms.xml",
+        "lib/MonoAndroid90/Syncfusion.SfImageEditor.XForms.Android.dll",
+        "lib/MonoAndroid90/Syncfusion.SfImageEditor.XForms.dll",
+        "lib/MonoAndroid90/Syncfusion.SfImageEditor.XForms.xml",
+        "lib/Xamarin.iOS10/Syncfusion.SfImageEditor.XForms.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfImageEditor.XForms.iOS.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfImageEditor.XForms.xml",
+        "lib/netstandard2.0/Syncfusion.SfImageEditor.XForms.dll",
+        "lib/netstandard2.0/Syncfusion.SfImageEditor.XForms.xml",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.SfImageEditor.XForms.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.SfImageEditor.XForms.xml",
+        "lib/uap10.0/Syncfusion.SfImageEditor.XForms.UWP.XML",
+        "lib/uap10.0/Syncfusion.SfImageEditor.XForms.UWP.dll",
+        "lib/uap10.0/Syncfusion.SfImageEditor.XForms.dll",
+        "lib/uap10.0/Syncfusion.SfImageEditor.XForms.xml",
+        "syncfusion.xamarin.sfimageeditor.18.4.0.42.nupkg.sha512",
+        "syncfusion.xamarin.sfimageeditor.nuspec"
       ]
     },
     "Syncfusion.Xamarin.SfNumericUpDown/18.4.0.42": {
@@ -2541,7 +2681,10 @@
       "NETStandard.Library >= 2.0.3",
       "Syncfusion.Xamarin.Buttons >= 18.4.0.42",
       "Syncfusion.Xamarin.Core >= 18.4.0.42",
+      "Syncfusion.Xamarin.SfChart >= 18.4.0.42",
+      "Syncfusion.Xamarin.SfComboBox >= 18.4.0.42",
       "Syncfusion.Xamarin.SfGauge >= 18.4.0.42",
+      "Syncfusion.Xamarin.SfImageEditor >= 18.4.0.42",
       "Syncfusion.Xamarin.SfNumericUpDown >= 18.4.0.42",
       "Xamarin.Essentials >= 1.6.1",
       "Xamarin.Forms >= 4.8.0.1687",
@@ -2603,7 +2746,19 @@
             "target": "Package",
             "version": "[18.4.0.42, )"
           },
+          "Syncfusion.Xamarin.SfChart": {
+            "target": "Package",
+            "version": "[18.4.0.42, )"
+          },
+          "Syncfusion.Xamarin.SfComboBox": {
+            "target": "Package",
+            "version": "[18.4.0.42, )"
+          },
           "Syncfusion.Xamarin.SfGauge": {
+            "target": "Package",
+            "version": "[18.4.0.42, )"
+          },
+          "Syncfusion.Xamarin.SfImageEditor": {
             "target": "Package",
             "version": "[18.4.0.42, )"
           },

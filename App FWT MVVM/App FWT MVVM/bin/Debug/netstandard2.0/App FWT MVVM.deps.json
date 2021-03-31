@@ -13,7 +13,9 @@
           "Newtonsoft.Json": "12.0.3",
           "Syncfusion.Xamarin.Buttons": "18.4.0.42",
           "Syncfusion.Xamarin.Core": "18.4.0.42",
+          "Syncfusion.Xamarin.SfComboBox": "18.4.0.42",
           "Syncfusion.Xamarin.SfGauge": "18.4.0.42",
+          "Syncfusion.Xamarin.SfImageEditor": "18.4.0.42",
           "Syncfusion.Xamarin.SfNumericUpDown": "18.4.0.42",
           "Xamarin.Essentials": "1.5.3.2",
           "Xamarin.Forms": "4.8.0.1687",
@@ -71,6 +73,18 @@
           }
         }
       },
+      "Syncfusion.Xamarin.SfComboBox/18.4.0.42": {
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "18.4.0.42",
+          "Xamarin.Forms": "4.8.0.1687"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.SfComboBox.XForms.dll": {
+            "assemblyVersion": "18.4451.0.42",
+            "fileVersion": "18.4451.0.42"
+          }
+        }
+      },
       "Syncfusion.Xamarin.SfGauge/18.4.0.42": {
         "dependencies": {
           "Syncfusion.Xamarin.Core": "18.4.0.42",
@@ -78,6 +92,18 @@
         },
         "runtime": {
           "lib/netstandard2.0/Syncfusion.SfGauge.XForms.dll": {
+            "assemblyVersion": "18.4451.0.42",
+            "fileVersion": "18.4451.0.42"
+          }
+        }
+      },
+      "Syncfusion.Xamarin.SfImageEditor/18.4.0.42": {
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "18.4.0.42",
+          "Xamarin.Forms": "4.8.0.1687"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.SfImageEditor.XForms.dll": {
             "assemblyVersion": "18.4451.0.42",
             "fileVersion": "18.4451.0.42"
           }
@@ -216,12 +242,26 @@
       "path": "syncfusion.xamarin.core/18.4.0.42",
       "hashPath": "syncfusion.xamarin.core.18.4.0.42.nupkg.sha512"
     },
+    "Syncfusion.Xamarin.SfComboBox/18.4.0.42": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jSMsyaEJudcxEOG9QjUbwEOm8K4ZCIKG3ZRYUO59v1C8uoCh357J4ixRPMKCbg45h2m68D+5mKIxJp0o9xsDag==",
+      "path": "syncfusion.xamarin.sfcombobox/18.4.0.42",
+      "hashPath": "syncfusion.xamarin.sfcombobox.18.4.0.42.nupkg.sha512"
+    },
     "Syncfusion.Xamarin.SfGauge/18.4.0.42": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-w4MoJ8YmfpZOcnPvJJ9nzB89uftbfjZWItYpB+g0c0fWkKy6srCUuCMvZsqk94TW2g6BKTdI3tnIQqIRaTunXA==",
       "path": "syncfusion.xamarin.sfgauge/18.4.0.42",
       "hashPath": "syncfusion.xamarin.sfgauge.18.4.0.42.nupkg.sha512"
+    },
+    "Syncfusion.Xamarin.SfImageEditor/18.4.0.42": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6cL1Xng8cI5T8uO/6kelKRhUAxcDkV4Dn/JvSyfBAkQBnBzbRsjFaZh9AHFHzmrLLpNHG3vUHy/nWkW62NNang==",
+      "path": "syncfusion.xamarin.sfimageeditor/18.4.0.42",
+      "hashPath": "syncfusion.xamarin.sfimageeditor.18.4.0.42.nupkg.sha512"
     },
     "Syncfusion.Xamarin.SfNumericUpDown/18.4.0.42": {
       "type": "package",
