@@ -6,34 +6,36 @@ using System.Text;
 
 namespace App_FWT_MVVM.ViewModels
 {
+    //DATOS DE LA GRAFICA
     public class GraficaViewModel
     {
-        public ObservableCollection<OxygenRate> MonthsData { get; set; }
-
+        public ObservableCollection<ChartDataMarker> AnualData { get; set; }
         public GraficaViewModel()
         {
-            DateTime date = new DateTime(2017, 5, 1);
+            DateTime date = new DateTime(2021, 4, 7);
 
-            MonthsData = new ObservableCollection<OxygenRate>();
-
-            MonthsData.Add(new OxygenRate { High = 29, Low = 80, Date = date });
-            MonthsData.Add(new OxygenRate { High = 33, Low = 80, Date = date.AddDays(30) });
-            MonthsData.Add(new OxygenRate { High = 24, Low = 80, Date = date.AddDays(60) });
-            MonthsData.Add(new OxygenRate { High = 28, Low = 80, Date = date.AddDays(90) });
-            MonthsData.Add(new OxygenRate { High = 26, Low = 80, Date = date.AddDays(120) });
-            MonthsData.Add(new OxygenRate { High = 38, Low = 80, Date = date.AddDays(150) });
-            MonthsData.Add(new OxygenRate { High = 32, Low = 80, Date = date.AddDays(180) });
-            MonthsData.Add(new OxygenRate { High = 20, Low = 80, Date = date.AddDays(210) });
-            MonthsData.Add(new OxygenRate { High = 35, Low = 80, Date = date.AddDays(240) });
-            MonthsData.Add(new OxygenRate { High = 18, Low = 80, Date = date.AddDays(270) });
-            MonthsData.Add(new OxygenRate { High = 10, Low = 80, Date = date.AddDays(300) });
-            MonthsData.Add(new OxygenRate { High = 50, Low = 80, Date = date.AddDays(330) });
-            MonthsData.Add(new OxygenRate { High = 41, Low = 80, Date = date.AddDays(360) });
+            AnualData = new ObservableCollection<ChartDataMarker>
+            {
+                new ChartDataMarker { High = 10, Date = date },
+                new ChartDataMarker { High = 17, Date = date.AddMonths(1) },
+                new ChartDataMarker { High = 10, Date = date.AddMonths(2) },
+                new ChartDataMarker { High = 15, Date = date.AddMonths(3) },
+                new ChartDataMarker { High = 20, Date = date.AddMonths(4) },
+                new ChartDataMarker { High = 13, Date = date.AddMonths(5) },
+                new ChartDataMarker { High = 4, Date = date.AddMonths(6) },
+                new ChartDataMarker { High = 5, Date = date.AddMonths(7) },
+                new ChartDataMarker { High = 8, Date = date.AddMonths(8) },
+                new ChartDataMarker { High = 15, Date = date.AddMonths(9) },
+                new ChartDataMarker { High = 17, Date = date.AddMonths(10) },
+                new ChartDataMarker { High = 18, Date = date.AddMonths(11) },
+                new ChartDataMarker { High = 15, Date = date.AddMonths(12) }
+            };
 
         }
-    }
 
-    public class OxygenRate
+    }
+    
+    public class ChartDataMarker
     {
         public double High
         {
@@ -41,11 +43,6 @@ namespace App_FWT_MVVM.ViewModels
             set;
         }
 
-        public double Low
-        {
-            get;
-            set;
-        }
         public DateTime Date
         {
             get;

@@ -2,6 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:gradient ="clr-namespace:Syncfusion.XForms.Graphics;assembly=Syncfusion.Core.XForms"
+             xmlns:sfavatar="clr-namespace:Syncfusion.XForms.AvatarView;assembly=Syncfusion.Core.XForms"
              x:Class="App_FWT_MVVM.Views.Perfil"
              Title="Perfil">
     <ContentPage.Content>
@@ -16,22 +17,29 @@
                     </gradient:SfLinearGradientBrush>
                 </gradient:SfGradientView.BackgroundBrush>
             </gradient:SfGradientView>
-            <BoxView BackgroundColor="DeepSkyBlue" AbsoluteLayout.LayoutBounds=".51, 27, 130, 130"
-                     AbsoluteLayout.LayoutFlags="XProportional"
-                     CornerRadius="57,0,0,57"></BoxView>
-            <Image x:Name="imageView" Aspect="AspectFit" AbsoluteLayout.LayoutBounds=".5,45,100,100"
-                   AbsoluteLayout.LayoutFlags="XProportional"></Image>
-            
-            <Button x:Name="TakePhoto" Text="Cambiar imagen"
-                    FontSize="8"
-                    BackgroundColor="#0779AB"
-                    TextColor="White"
-                    AbsoluteLayout.LayoutBounds=".5,160"
-                    AbsoluteLayout.LayoutFlags="XProportional"
-                    CornerRadius="5"
-                    HeightRequest="30"/>
+            <sfavatar:SfAvatarView ContentType="Initials"
+                                   AbsoluteLayout.LayoutBounds=".5,50"
+                                   AbsoluteLayout.LayoutFlags="XProportional"
+                                   InitialsType="SingleCharacter"
+                                   AvatarName="Andres"
+                                   InitialsColor="Black"
+                                   WidthRequest="120"
+                                   HeightRequest="120"
+                                   CornerRadius="0,25,0,25"
+                                   FontSize="70"
+                                   BorderWidth="3">
+                <sfavatar:SfAvatarView.BackgroundGradient>
+                    <gradient:SfLinearGradientBrush>
+                        <gradient:SfLinearGradientBrush.GradientStops>
+                            <gradient:SfGradientStop Color="#5EFBFF" Offset="0"/>
+                            <gradient:SfGradientStop Color="#5EA4FF" Offset="1"/>
+                        </gradient:SfLinearGradientBrush.GradientStops>
+                    </gradient:SfLinearGradientBrush>
+                </sfavatar:SfAvatarView.BackgroundGradient>
+            </sfavatar:SfAvatarView>
+
            
-            <Label Text="Usuario" 
+            <Label Text="Andres" 
                    FontSize="30" 
                    TextColor="Black" 
                    AbsoluteLayout.LayoutBounds=".5,200" 
@@ -46,11 +54,6 @@
                    TextColor="White"
                    AbsoluteLayout.LayoutBounds="10,.43"
                    AbsoluteLayout.LayoutFlags="YProportional"></Label>
-            <BoxView BackgroundColor="White"
-                     AbsoluteLayout.LayoutBounds="10,.46"
-                     AbsoluteLayout.LayoutFlags="YProportional"
-                     HeightRequest="5"
-                     WidthRequest="360"></BoxView>
             <Label
                 Text="Cuenta"
                 FontSize="15"
@@ -70,21 +73,21 @@
             <Button 
                     Text="Cambiar contraseña"
                     TextColor="White"
-                    FontSize="15"
+                    FontSize="13"
                     HeightRequest="39"
-                    AbsoluteLayout.LayoutBounds="8,.63"
+                    AbsoluteLayout.LayoutBounds="8,.632"
                     AbsoluteLayout.LayoutFlags="YProportional"
                     CornerRadius="20"
-                    BackgroundColor="#0779AB"
+                    BackgroundColor="#A8A8A8"
                     ></Button>
 
             <Button Text="Cerrar Sesión"
                     TextColor="White"
                     FontSize="15"
                     CornerRadius="20"
-                    BackgroundColor="#0779AB"
+                    BackgroundColor="#A8A8A8"
                     HeightRequest="39"
-                    AbsoluteLayout.LayoutBounds="130,.9"
+                    AbsoluteLayout.LayoutBounds="130,.92"
                     AbsoluteLayout.LayoutFlags="YProportional">
 
             </Button>
