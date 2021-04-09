@@ -112,3 +112,29 @@ C:\Users\andre\Desktop\PROYECTO FWT\APP_FWT_MVVM\APP-FWT-MVVM\App FWT MVVM\App F
 C:\Users\andre\Desktop\PROYECTO FWT\APP_FWT_MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM\obj\Debug\netstandard2.0\App FWT MVVM.pdb
 C:\Users\andre\Desktop\PROYECTO FWT\APP_FWT_MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM\obj\Debug\netstandard2.0\Views\Graficas.xaml.g.cs
 C:\Users\andre\Desktop\PROYECTO FWT\APP_FWT_MVVM\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM\obj\Debug\netstandard2.0\XamlC.stamp
+F:\APP FWT GIT\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM\bin\Debug\netstandard2.0\App FWT MVVM.deps.json
+F:\APP FWT GIT\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM\bin\Debug\netstandard2.0\App FWT MVVM.dll
+F:\APP FWT GIT\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM\bin\Debug\netstandard2.0\ref\App FWT MVVM.dll
+F:\APP FWT GIT\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM\bin\Debug\netstandard2.0\App FWT MVVM.pdb
+F:\APP FWT GIT\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM\bin\Debug\netstandard2.0\Mono.Android.dll
+F:\APP FWT GIT\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM\bin\Debug\netstandard2.0\Mono.Android.pdb
+F:\APP FWT GIT\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM\bin\Debug\netstandard2.0\Mono.Android.xml
+F:\APP FWT GIT\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM\obj\Debug\netstandard2.0\App FWT MVVM.csprojAssemblyReference.cache
+F:\APP FWT GIT\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM\obj\Debug\netstandard2.0\App.xaml.g.cs
+F:\APP FWT GIT\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM\obj\Debug\netstandard2.0\Views\Config.xaml.g.cs
+F:\APP FWT GIT\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM\obj\Debug\netstandard2.0\Views\Dashboard.xaml.g.cs
+F:\APP FWT GIT\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM\obj\Debug\netstandard2.0\Views\Graficas.xaml.g.cs
+F:\APP FWT GIT\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM\obj\Debug\netstandard2.0\Views\HeaderContentView.xaml.g.cs
+F:\APP FWT GIT\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM\obj\Debug\netstandard2.0\Views\Login.xaml.g.cs
+F:\APP FWT GIT\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM\obj\Debug\netstandard2.0\Views\Master.xaml.g.cs
+F:\APP FWT GIT\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM\obj\Debug\netstandard2.0\Views\Perfil.xaml.g.cs
+F:\APP FWT GIT\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM\obj\Debug\netstandard2.0\Views\Presupuesto.xaml.g.cs
+F:\APP FWT GIT\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM\obj\Debug\netstandard2.0\Views\Register.xaml.g.cs
+F:\APP FWT GIT\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM\obj\Debug\netstandard2.0\App FWT MVVM.AssemblyInfoInputs.cache
+F:\APP FWT GIT\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM\obj\Debug\netstandard2.0\App FWT MVVM.AssemblyInfo.cs
+F:\APP FWT GIT\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM\obj\Debug\netstandard2.0\App FWT MVVM.csproj.CoreCompileInputs.cache
+F:\APP FWT GIT\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM\obj\Debug\netstandard2.0\XamlC.stamp
+F:\APP FWT GIT\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM\obj\Debug\netstandard2.0\App FWT MVVM.csproj.CopyComplete
+F:\APP FWT GIT\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM\obj\Debug\netstandard2.0\App FWT MVVM.dll
+F:\APP FWT GIT\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM\obj\Debug\netstandard2.0\ref\App FWT MVVM.dll
+F:\APP FWT GIT\APP-FWT-MVVM\App FWT MVVM\App FWT MVVM\obj\Debug\netstandard2.0\App FWT MVVM.pdb

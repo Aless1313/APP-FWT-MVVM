@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FtSaAxxKMruWV2nbFKU9mRzQ6zT+znm0m6bR+j3BLxBiEf0jYzDMLiYSU+u8CFu3axNrMgIqyQFzznmD3sJdZw==",
+  "dgSpecHash": "jnO+U1dpUIuh6lQxCqaim4zOdlWRrBVP3fcIsGz1ZRfK3OFl+QX3plnZ11mIXGGR4UUcOw3InskNvUkGM9ddkA==",
   "success": true,
-  "projectFilePath": "E:\\APP BETA FWT\\APP-FWT-MVVM\\App FWT MVVM\\App FWT MVVM\\App FWT MVVM.csproj",
+  "projectFilePath": "F:\\APP FWT GIT\\APP-FWT-MVVM\\App FWT MVVM\\App FWT MVVM\\App FWT MVVM.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aless\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\aless\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
@@ -10,7 +10,11 @@
     "C:\\Users\\aless\\.nuget\\packages\\syncfusion.licensing\\18.4.0.42\\syncfusion.licensing.18.4.0.42.nupkg.sha512",
     "C:\\Users\\aless\\.nuget\\packages\\syncfusion.xamarin.buttons\\18.4.0.42\\syncfusion.xamarin.buttons.18.4.0.42.nupkg.sha512",
     "C:\\Users\\aless\\.nuget\\packages\\syncfusion.xamarin.core\\18.4.0.42\\syncfusion.xamarin.core.18.4.0.42.nupkg.sha512",
+    "C:\\Users\\aless\\.nuget\\packages\\syncfusion.xamarin.sfchart\\18.4.0.42\\syncfusion.xamarin.sfchart.18.4.0.42.nupkg.sha512",
+    "C:\\Users\\aless\\.nuget\\packages\\syncfusion.xamarin.sfcombobox\\18.4.0.42\\syncfusion.xamarin.sfcombobox.18.4.0.42.nupkg.sha512",
     "C:\\Users\\aless\\.nuget\\packages\\syncfusion.xamarin.sfgauge\\18.4.0.42\\syncfusion.xamarin.sfgauge.18.4.0.42.nupkg.sha512",
+    "C:\\Users\\aless\\.nuget\\packages\\syncfusion.xamarin.sfimageeditor\\18.4.0.42\\syncfusion.xamarin.sfimageeditor.18.4.0.42.nupkg.sha512",
+    "C:\\Users\\aless\\.nuget\\packages\\syncfusion.xamarin.sfnumericupdown\\18.4.0.42\\syncfusion.xamarin.sfnumericupdown.18.4.0.42.nupkg.sha512",
     "C:\\Users\\aless\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\aless\\.nuget\\packages\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
     "C:\\Users\\aless\\.nuget\\packages\\xamarin.forms\\4.8.0.1687\\xamarin.forms.4.8.0.1687.nupkg.sha512",

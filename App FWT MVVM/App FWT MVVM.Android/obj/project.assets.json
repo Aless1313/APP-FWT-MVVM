@@ -2693,24 +2693,27 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\andre\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\aless\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\andre\\Desktop\\PROYECTO FWT\\APP_FWT_MVVM\\APP-FWT-MVVM\\App FWT MVVM\\App FWT MVVM.Android\\App FWT MVVM.Android.csproj",
+      "projectUniqueName": "F:\\APP FWT GIT\\APP-FWT-MVVM\\App FWT MVVM\\App FWT MVVM.Android\\App FWT MVVM.Android.csproj",
       "projectName": "App FWT MVVM.Android",
-      "projectPath": "C:\\Users\\andre\\Desktop\\PROYECTO FWT\\APP_FWT_MVVM\\APP-FWT-MVVM\\App FWT MVVM\\App FWT MVVM.Android\\App FWT MVVM.Android.csproj",
-      "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\andre\\Desktop\\PROYECTO FWT\\APP_FWT_MVVM\\APP-FWT-MVVM\\App FWT MVVM\\App FWT MVVM.Android\\obj\\",
+      "projectPath": "F:\\APP FWT GIT\\APP-FWT-MVVM\\App FWT MVVM\\App FWT MVVM.Android\\App FWT MVVM.Android.csproj",
+      "packagesPath": "C:\\Users\\aless\\.nuget\\packages\\",
+      "outputPath": "F:\\APP FWT GIT\\APP-FWT-MVVM\\App FWT MVVM\\App FWT MVVM.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\aless\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -2724,8 +2727,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Users\\andre\\Desktop\\PROYECTO FWT\\APP_FWT_MVVM\\APP-FWT-MVVM\\App FWT MVVM\\App FWT MVVM\\App FWT MVVM.csproj": {
-              "projectPath": "C:\\Users\\andre\\Desktop\\PROYECTO FWT\\APP_FWT_MVVM\\APP-FWT-MVVM\\App FWT MVVM\\App FWT MVVM\\App FWT MVVM.csproj"
+            "F:\\APP FWT GIT\\APP-FWT-MVVM\\App FWT MVVM\\App FWT MVVM\\App FWT MVVM.csproj": {
+              "projectPath": "F:\\APP FWT GIT\\APP-FWT-MVVM\\App FWT MVVM\\App FWT MVVM\\App FWT MVVM.csproj"
             }
           }
         }

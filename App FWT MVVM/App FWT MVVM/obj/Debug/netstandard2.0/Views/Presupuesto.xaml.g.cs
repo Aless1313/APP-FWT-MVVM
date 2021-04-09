@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("App FWT MVVM.Views.Presupuesto.xaml", "Views/Presupuesto.xaml", typeof(global::App_FWT_MVVM.Views.Presupuesto))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("App_FWT_MVVM.Views.Presupuesto.xaml", "Views/Presupuesto.xaml", typeof(global::App_FWT_MVVM.Views.Presupuesto))]
 
 namespace App_FWT_MVVM.Views {
     

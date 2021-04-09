@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Wm9VmDlDez1maY0Ge6GrQCOPtDb8K0J9dMYvIerBhhxXgEmlpjZy0hEzvBt1H6vzE5FmAeWVdmuU36Ksoi5hVQ==",
+  "dgSpecHash": "y4oVrEjWaYK38Yz+jYKoO1KXFxclPRY7NLXTXbHnENRq4d1m1n7umNGhbuah6IzKryyoNFhtl7tlRbMDYXFqOQ==",
   "success": true,
-  "projectFilePath": "E:\\APP BETA FWT\\APP-FWT-MVVM\\App FWT MVVM\\App FWT MVVM.Android\\App FWT MVVM.Android.csproj",
+  "projectFilePath": "F:\\APP FWT GIT\\APP-FWT-MVVM\\App FWT MVVM\\App FWT MVVM.Android\\App FWT MVVM.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aless\\.nuget\\packages\\fastandroidcamera\\2.0.0\\fastandroidcamera.2.0.0.nupkg.sha512",
     "C:\\Users\\aless\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
@@ -11,7 +11,11 @@
     "C:\\Users\\aless\\.nuget\\packages\\syncfusion.licensing\\18.4.0.42\\syncfusion.licensing.18.4.0.42.nupkg.sha512",
     "C:\\Users\\aless\\.nuget\\packages\\syncfusion.xamarin.buttons\\18.4.0.42\\syncfusion.xamarin.buttons.18.4.0.42.nupkg.sha512",
     "C:\\Users\\aless\\.nuget\\packages\\syncfusion.xamarin.core\\18.4.0.42\\syncfusion.xamarin.core.18.4.0.42.nupkg.sha512",
+    "C:\\Users\\aless\\.nuget\\packages\\syncfusion.xamarin.sfchart\\18.4.0.42\\syncfusion.xamarin.sfchart.18.4.0.42.nupkg.sha512",
+    "C:\\Users\\aless\\.nuget\\packages\\syncfusion.xamarin.sfcombobox\\18.4.0.42\\syncfusion.xamarin.sfcombobox.18.4.0.42.nupkg.sha512",
     "C:\\Users\\aless\\.nuget\\packages\\syncfusion.xamarin.sfgauge\\18.4.0.42\\syncfusion.xamarin.sfgauge.18.4.0.42.nupkg.sha512",
+    "C:\\Users\\aless\\.nuget\\packages\\syncfusion.xamarin.sfimageeditor\\18.4.0.42\\syncfusion.xamarin.sfimageeditor.18.4.0.42.nupkg.sha512",
+    "C:\\Users\\aless\\.nuget\\packages\\syncfusion.xamarin.sfnumericupdown\\18.4.0.42\\syncfusion.xamarin.sfnumericupdown.18.4.0.42.nupkg.sha512",
     "C:\\Users\\aless\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\aless\\.nuget\\packages\\xamarin.android.arch.core.common\\1.1.1.3\\xamarin.android.arch.core.common.1.1.1.3.nupkg.sha512",
     "C:\\Users\\aless\\.nuget\\packages\\xamarin.android.arch.core.runtime\\1.1.1.3\\xamarin.android.arch.core.runtime.1.1.1.3.nupkg.sha512",
